@@ -299,7 +299,7 @@ msgstr "u"
 #: contrib/admin/options.py:343
 #, python-format
 msgid "Added %(name)s \"%(object)s\"."
-msgstr "Додат %(name)s \"%(objects)s\"."
+msgstr "Додат %(name)s \"%(object)s\"."
 
 #: contrib/admin/options.py:347
 #, python-format
