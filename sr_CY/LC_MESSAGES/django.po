@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-02 22:36-0700\n"
-"PO-Revision-Date: 2009-03-28 21:55-0700\n"
+"PO-Revision-Date: 2009-03-29 21:20-0700\n"
 "Last-Translator: Branko Vukelic <bg.branko@gmail.com>\n"
 "Language-Team: SERBIAN <bg.branko@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1541,189 +1541,190 @@ msgstr ""
 
 #: contrib/gis/forms/fields.py:14
 msgid "No geometry value provided."
-msgstr ""
+msgstr "Нисте задали параметре за геометрију."
 
 #: contrib/gis/forms/fields.py:15
 msgid "Invalid geometry value."
-msgstr ""
+msgstr "Неисправан параметар за геометрију."
 
 #: contrib/gis/forms/fields.py:16
 msgid "Invalid geometry type."
-msgstr ""
+msgstr "Непостојећи тип геометрије."
 
 #: contrib/humanize/templatetags/humanize.py:19
 msgid "th"
-msgstr ""
+msgstr "-и"
 
 #: contrib/humanize/templatetags/humanize.py:19
 msgid "st"
-msgstr ""
+msgstr "-ви"
 
 #: contrib/humanize/templatetags/humanize.py:19
 msgid "nd"
-msgstr ""
+msgstr "-и"
 
 #: contrib/humanize/templatetags/humanize.py:19
 msgid "rd"
-msgstr ""
+msgstr "-и"
 
 #: contrib/humanize/templatetags/humanize.py:51
 #, python-format
 msgid "%(value).1f million"
 msgid_plural "%(value).1f million"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(value).1f милион"
+msgstr[1] "%(value).1f милиона"
 
 #: contrib/humanize/templatetags/humanize.py:54
 #, python-format
 msgid "%(value).1f billion"
 msgid_plural "%(value).1f billion"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(value).1f милијарда"
+msgstr[1] "%(value).1f милијарди"
 
 #: contrib/humanize/templatetags/humanize.py:57
 #, python-format
 msgid "%(value).1f trillion"
 msgid_plural "%(value).1f trillion"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(value).1f трилион"
+msgstr[1] "%(value).1f трилиона"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "one"
-msgstr ""
+msgstr "један"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "two"
-msgstr ""
+msgstr "два"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "three"
-msgstr ""
+msgstr "три"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "four"
-msgstr ""
+msgstr "четири"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "five"
-msgstr ""
+msgstr "пет"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "six"
-msgstr ""
+msgstr "шест"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "seven"
-msgstr ""
+msgstr "седам"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "eight"
-msgstr ""
+msgstr "осам"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "nine"
-msgstr ""
+msgstr "девет"
 
 #: contrib/humanize/templatetags/humanize.py:93
 msgid "today"
-msgstr ""
+msgstr "десет"
 
 #: contrib/humanize/templatetags/humanize.py:95
 msgid "tomorrow"
-msgstr ""
+msgstr "сутра"
 
 #: contrib/humanize/templatetags/humanize.py:97
 msgid "yesterday"
-msgstr ""
+msgstr "јуче"
 
 #: contrib/localflavor/ar/forms.py:27
 msgid "Enter a postal code in the format NNNN or ANNNNAAA."
-msgstr ""
+msgstr "Унесите поштански број у формату NNNN или ANNNNAAA."
 
 #: contrib/localflavor/ar/forms.py:49 contrib/localflavor/br/forms.py:96
 #: contrib/localflavor/br/forms.py:135 contrib/localflavor/pe/forms.py:23
 #: contrib/localflavor/pe/forms.py:51
 msgid "This field requires only numbers."
-msgstr ""
+msgstr "Ово поље мора садржати само бројке."
 
 #: contrib/localflavor/ar/forms.py:50
 msgid "This field requires 7 or 8 digits."
-msgstr ""
+msgstr "Ово поље мора садржати 7 или 8 цифара"
 
 #: contrib/localflavor/ar/forms.py:79
 msgid "Enter a valid CUIT in XX-XXXXXXXX-X or XXXXXXXXXXXX format."
-msgstr ""
+msgstr "Унестие важећи CUIT у формату XX-XXXXXXXX-X or XXXXXXXXXXXX."
 
 #: contrib/localflavor/ar/forms.py:80
 msgid "Invalid CUIT."
-msgstr ""
+msgstr "Неважећи CUIT"
 
 #: contrib/localflavor/at/at_states.py:5
 msgid "Burgenland"
-msgstr ""
+msgstr "Бургенланд"
 
 #: contrib/localflavor/at/at_states.py:6
 msgid "Carinthia"
-msgstr ""
+msgstr "Каринтија"
 
 #: contrib/localflavor/at/at_states.py:7
 msgid "Lower Austria"
-msgstr ""
+msgstr "Доња Аустрија"
 
 #: contrib/localflavor/at/at_states.py:8
 msgid "Upper Austria"
-msgstr ""
+msgstr "Горња Аустрија"
 
 #: contrib/localflavor/at/at_states.py:9
 msgid "Salzburg"
-msgstr ""
+msgstr "Салцбург"
 
 #: contrib/localflavor/at/at_states.py:10
 msgid "Styria"
-msgstr ""
+msgstr "Стирија"
 
 #: contrib/localflavor/at/at_states.py:11
 msgid "Tyrol"
-msgstr ""
+msgstr "Тирол"
 
 #: contrib/localflavor/at/at_states.py:12
 msgid "Vorarlberg"
-msgstr ""
+msgstr "Воралбер"
 
 #: contrib/localflavor/at/at_states.py:13
 msgid "Vienna"
-msgstr ""
+msgstr "Беч"
 
 #: contrib/localflavor/at/forms.py:20 contrib/localflavor/ch/forms.py:16
 #: contrib/localflavor/no/forms.py:12
 msgid "Enter a zip code in the format XXXX."
-msgstr ""
+msgstr "Унесите поштански број у формату XXXX."
 
 #: contrib/localflavor/at/forms.py:48
 msgid "Enter a valid Austrian Social Security Number in XXXX XXXXXX format."
-msgstr ""
+msgstr "Унесите важећи аустријски број социјалног осигурања у формату XXXX XXXXXX."
 
 #: contrib/localflavor/au/forms.py:16
 msgid "Enter a 4 digit post code."
-msgstr ""
+msgstr "Унесите четвороцифрени поштански број"
 
 #: contrib/localflavor/br/forms.py:21
 msgid "Enter a zip code in the format XXXXX-XXX."
-msgstr ""
+msgstr "Унесите поштански број у формату XXXXX-XXX."
 
 #: contrib/localflavor/br/forms.py:30
 msgid "Phone numbers must be in XX-XXXX-XXXX format."
-msgstr ""
+msgstr "Број телефона мора бити у формату XX-XXXX-XXXX."
 
 #: contrib/localflavor/br/forms.py:58
 msgid ""
 "Select a valid brazilian state. That state is not one of the available "
 "states."
 msgstr ""
+"Одаберите постојећу бразилску државу. Та држава није међу понуђенима."
 
 #: contrib/localflavor/br/forms.py:94
 msgid "Invalid CPF number."
-msgstr ""
+msgstr "Неважећи CPF број"
 
 #: contrib/localflavor/br/forms.py:95
 msgid "This field requires at most 11 digits or 14 characters."
@@ -3472,130 +3473,138 @@ msgstr ""
 
 #: contrib/redirects/models.py:7
 msgid "redirect from"
-msgstr ""
+msgstr "преусмерен са"
 
 #: contrib/redirects/models.py:8
 msgid ""
 "This should be an absolute path, excluding the domain name. Example: '/"
 "events/search/'."
 msgstr ""
+"Ово мора бити апсолутна путања без имена домена. На пример: "
+"'/events/search/'."
+
 
 #: contrib/redirects/models.py:9
 msgid "redirect to"
-msgstr ""
+msgstr "преусмери ка"
 
 #: contrib/redirects/models.py:10
 msgid ""
 "This can be either an absolute path (as above) or a full URL starting with "
 "'http://'."
 msgstr ""
+"Ово може бити или апсолутна путања (као горе) или пун URL који почиње са "
+"'http://'."
 
 #: contrib/redirects/models.py:13
 msgid "redirect"
-msgstr ""
+msgstr "преусмеравање"
 
 #: contrib/redirects/models.py:14
 msgid "redirects"
-msgstr ""
+msgstr "преусмеравања"
 
 #: contrib/sessions/models.py:45
 msgid "session key"
-msgstr ""
+msgstr "session key"
 
 #: contrib/sessions/models.py:47
 msgid "session data"
-msgstr ""
+msgstr "session data"
 
 #: contrib/sessions/models.py:48
 msgid "expire date"
-msgstr ""
+msgstr "датум застаревања"
 
 #: contrib/sessions/models.py:53
 msgid "session"
-msgstr ""
+msgstr "сесија"
 
 #: contrib/sessions/models.py:54
 msgid "sessions"
-msgstr ""
+msgstr "сесије"
 
 #: contrib/sites/models.py:32
 msgid "domain name"
-msgstr ""
+msgstr "име домена"
 
 #: contrib/sites/models.py:33
 msgid "display name"
-msgstr ""
+msgstr "приказано име"
 
 #: contrib/sites/models.py:39
 msgid "sites"
-msgstr ""
+msgstr "сајтови"
 
 #: db/models/fields/__init__.py:348 db/models/fields/__init__.py:683
 msgid "This value must be an integer."
-msgstr ""
+msgstr "Ова вредност мора бити целобројна"
 
 #: db/models/fields/__init__.py:379
 msgid "This value must be either True or False."
-msgstr ""
+msgstr "Ова вредност мора бити True или False."
 
 #: db/models/fields/__init__.py:412
 msgid "This field cannot be null."
-msgstr ""
+msgstr "Ово поље не може остати празно."
 
 #: db/models/fields/__init__.py:428
 msgid "Enter only digits separated by commas."
-msgstr ""
+msgstr "Унесите само бројке раздвојене запетама."
 
 #: db/models/fields/__init__.py:459
 msgid "Enter a valid date in YYYY-MM-DD format."
-msgstr ""
+msgstr "Унесите исправан датум у формату YYYY-MM-DD."
 
 #: db/models/fields/__init__.py:468
 #, python-format
 msgid "Invalid date: %s"
-msgstr ""
+msgstr "Неисправан датум: %s"
 
 #: db/models/fields/__init__.py:532 db/models/fields/__init__.py:550
 msgid "Enter a valid date/time in YYYY-MM-DD HH:MM[:ss[.uuuuuu]] format."
-msgstr ""
+msgstr "Унесите исправан датум/време у формату YYYY-MM-DD HH:MM[:ss[.uuuuuu]."
 
 #: db/models/fields/__init__.py:586
 msgid "This value must be a decimal number."
-msgstr ""
+msgstr "Ова вредност мора бити децимални број"
 
 #: db/models/fields/__init__.py:719
 msgid "This value must be either None, True or False."
-msgstr ""
+msgstr "Ова вредност мора бити или None, или True, или False."
 
 #: db/models/fields/__init__.py:817 db/models/fields/__init__.py:831
 msgid "Enter a valid time in HH:MM[:ss[.uuuuuu]] format."
-msgstr ""
+msgstr "Унесите исправно време у формату HH:MM[:ss[.uuuuuu]]."
 
 #: db/models/fields/related.py:761
 msgid ""
 "Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
 msgstr ""
+"Држите \"Control\", или \"Command\" на Mac-у да бисте обележили више од једне ставке."
 
 #: db/models/fields/related.py:838
 #, python-format
 msgid "Please enter valid %(self)s IDs. The value %(value)r is invalid."
 msgid_plural ""
 "Please enter valid %(self)s IDs. The values %(value)r are invalid."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Унесите исправан %(self)s IDs. Вредност %(value)r је неисправна."
+msgstr[1] "Унесите исправан %(self)s IDs. Вредности %(value)r су неисправне."
 
 #: forms/fields.py:54
 msgid "This field is required."
-msgstr ""
+msgstr "Ово пиље се мора попунити."
 
 #: forms/fields.py:55
 msgid "Enter a valid value."
-msgstr ""
+msgstr "Унесите исправну вредност."
 
 #: forms/fields.py:138
 #, python-format
 msgid "Ensure this value has at most %(max)d characters (it has %(length)d)."
 msgstr ""
+"Ово поље може садржати највише %(max)d словних места (тренутно има "
+"%(length)d)."
 
 #: forms/fields.py:139
 #, python-format
@@ -3604,398 +3613,401 @@ msgstr ""
 
 #: forms/fields.py:166
 msgid "Enter a whole number."
-msgstr ""
+msgstr "Унесите цео број."
 
 #: forms/fields.py:167 forms/fields.py:196 forms/fields.py:225
 #, python-format
 msgid "Ensure this value is less than or equal to %s."
-msgstr ""
+msgstr "Ова вредност мора да буде мања од %s. или тачно толико."
 
 #: forms/fields.py:168 forms/fields.py:197 forms/fields.py:226
 #, python-format
 msgid "Ensure this value is greater than or equal to %s."
-msgstr ""
+msgstr "Ова вредност мора бити већа од %s или тачно толико."
 
 #: forms/fields.py:195 forms/fields.py:224
 msgid "Enter a number."
-msgstr ""
+msgstr "Унесите број."
 
 #: forms/fields.py:227
 #, python-format
 msgid "Ensure that there are no more than %s digits in total."
-msgstr ""
+msgstr "Не сме бити укупно више од %s цифара. Проверите."
 
 #: forms/fields.py:228
 #, python-format
 msgid "Ensure that there are no more than %s decimal places."
-msgstr ""
+msgstr "Не сме бити укупно више од %s децималних места. Проверите."
 
 #: forms/fields.py:229
 #, python-format
 msgid "Ensure that there are no more than %s digits before the decimal point."
-msgstr ""
+msgstr "Не сме бити укупно више од %s цифара пре запете. Проверите."
 
 #: forms/fields.py:287 forms/fields.py:848
 msgid "Enter a valid date."
-msgstr ""
+msgstr "Унесите исправан датум."
 
 #: forms/fields.py:321 forms/fields.py:849
 msgid "Enter a valid time."
-msgstr ""
+msgstr "Унесите исправно време"
 
 #: forms/fields.py:360
 msgid "Enter a valid date/time."
-msgstr ""
+msgstr "Унесите исправан датум/време."
 
 #: forms/fields.py:446
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
+msgstr "Фајл није пребачен. Проверите тип енкодирања формулара."
 
 #: forms/fields.py:447
 msgid "No file was submitted."
-msgstr ""
+msgstr "Фајл није пребачен."
 
 #: forms/fields.py:448
 msgid "The submitted file is empty."
-msgstr ""
+msgstr "Пребачен фајл је празан."
 
 #: forms/fields.py:477
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
+"Пребаците исправан фајл. Фајл који је пребачен или није слика, или је "
+"оштећен."
 
 #: forms/fields.py:538
 msgid "Enter a valid URL."
-msgstr ""
+msgstr "Унесите исправан URL."
 
 #: forms/fields.py:539
 msgid "This URL appears to be a broken link."
-msgstr ""
+msgstr "Овај URL изгледа не води никуда."
 
 #: forms/fields.py:618 forms/fields.py:696
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
+msgstr "%(value)s није међу понуђеним вредностима. Одаберите једну од понуђених."
 
 #: forms/fields.py:697 forms/fields.py:758 forms/models.py:654
 msgid "Enter a list of values."
-msgstr ""
+msgstr "Унесите листу вредности."
 
 #: forms/fields.py:877
 msgid "Enter a valid IPv4 address."
-msgstr ""
+msgstr "Унесите исправну IPv4 адресу."
 
 #: forms/fields.py:887
 msgid ""
 "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
 msgstr ""
+"Унесите исрпаван slug, који се састоји од слова, бројки, доњиц црта или циртица."
 
 #: forms/formsets.py:242 forms/formsets.py:244
 msgid "Order"
-msgstr ""
+msgstr "Редослед"
 
 #: forms/models.py:268 forms/models.py:277
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
+msgstr "%(model_name)s са овом вредношћу %(field_label)s већ постоји."
 
 #: forms/models.py:584
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr ""
+msgstr "Одабрана вредност није међу понуђенима. Одаберите једну од понуђених."
 
 #: forms/models.py:655
 #, python-format
 msgid "Select a valid choice. %s is not one of the available choices."
-msgstr ""
+msgstr "%s није међу понуђеним вредностима. Одаберите једну од понуђених."
 
 #: template/defaultfilters.py:706
 msgid "yes,no,maybe"
-msgstr ""
+msgstr "да,не,можда"
 
 #: template/defaultfilters.py:737
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(size)d бајт"
+msgstr[1] "%(size)d бајтова"
 
 #: template/defaultfilters.py:739
 #, python-format
 msgid "%.1f KB"
-msgstr ""
+msgstr "%.1f KB"
 
 #: template/defaultfilters.py:741
 #, python-format
 msgid "%.1f MB"
-msgstr ""
+msgstr "%.1f MB"
 
 #: template/defaultfilters.py:742
 #, python-format
 msgid "%.1f GB"
-msgstr ""
+msgstr "%.1f GB"
 
 #: utils/dateformat.py:41
 msgid "p.m."
-msgstr ""
+msgstr "по п."
 
 #: utils/dateformat.py:42
 msgid "a.m."
-msgstr ""
+msgstr "пре п."
 
 #: utils/dateformat.py:47
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: utils/dateformat.py:48
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: utils/dateformat.py:97
 msgid "midnight"
-msgstr ""
+msgstr "поноћ"
 
 #: utils/dateformat.py:99
 msgid "noon"
-msgstr ""
+msgstr "подне"
 
 #: utils/dates.py:6
 msgid "Monday"
-msgstr ""
+msgstr "понедељак"
 
 #: utils/dates.py:6
 msgid "Tuesday"
-msgstr ""
+msgstr "уторак"
 
 #: utils/dates.py:6
 msgid "Wednesday"
-msgstr ""
+msgstr "среда"
 
 #: utils/dates.py:6
 msgid "Thursday"
-msgstr ""
+msgstr "четвртак"
 
 #: utils/dates.py:6
 msgid "Friday"
-msgstr ""
+msgstr "петак"
 
 #: utils/dates.py:7
 msgid "Saturday"
-msgstr ""
+msgstr "субота"
 
 #: utils/dates.py:7
 msgid "Sunday"
-msgstr ""
+msgstr "недеља"
 
 #: utils/dates.py:10
 msgid "Mon"
-msgstr ""
+msgstr "пон."
 
 #: utils/dates.py:10
 msgid "Tue"
-msgstr ""
+msgstr "уто."
 
 #: utils/dates.py:10
 msgid "Wed"
-msgstr ""
+msgstr "сре."
 
 #: utils/dates.py:10
 msgid "Thu"
-msgstr ""
+msgstr "чет."
 
 #: utils/dates.py:10
 msgid "Fri"
-msgstr ""
+msgstr "пет."
 
 #: utils/dates.py:11
 msgid "Sat"
-msgstr ""
+msgstr "суб."
 
 #: utils/dates.py:11
 msgid "Sun"
-msgstr ""
+msgstr "нед."
 
 #: utils/dates.py:18
 msgid "January"
-msgstr ""
+msgstr "јануар"
 
 #: utils/dates.py:18
 msgid "February"
-msgstr ""
+msgstr "фебруар"
 
 #: utils/dates.py:18 utils/dates.py:31
 msgid "March"
-msgstr ""
+msgstr "март"
 
 #: utils/dates.py:18 utils/dates.py:31
 msgid "April"
-msgstr ""
+msgstr "април"
 
 #: utils/dates.py:18 utils/dates.py:31
 msgid "May"
-msgstr ""
+msgstr "мај"
 
 #: utils/dates.py:18 utils/dates.py:31
 msgid "June"
-msgstr ""
+msgstr "јун"
 
 #: utils/dates.py:19 utils/dates.py:31
 msgid "July"
-msgstr ""
+msgstr "јул"
 
 #: utils/dates.py:19
 msgid "August"
-msgstr ""
+msgstr "август"
 
 #: utils/dates.py:19
 msgid "September"
-msgstr ""
+msgstr "септембар"
 
 #: utils/dates.py:19
 msgid "October"
-msgstr ""
+msgstr "октобар"
 
 #: utils/dates.py:19
 msgid "November"
-msgstr ""
+msgstr "новембар"
 
 #: utils/dates.py:20
 msgid "December"
-msgstr ""
+msgstr "децембар"
 
 #: utils/dates.py:23
 msgid "jan"
-msgstr ""
+msgstr "јан."
 
 #: utils/dates.py:23
 msgid "feb"
-msgstr ""
+msgstr "феб."
 
 #: utils/dates.py:23
 msgid "mar"
-msgstr ""
+msgstr "мар."
 
 #: utils/dates.py:23
 msgid "apr"
-msgstr ""
+msgstr "апр."
 
 #: utils/dates.py:23
 msgid "may"
-msgstr ""
+msgstr "мај."
 
 #: utils/dates.py:23
 msgid "jun"
-msgstr ""
+msgstr "јун."
 
 #: utils/dates.py:24
 msgid "jul"
-msgstr ""
+msgstr "јул."
 
 #: utils/dates.py:24
 msgid "aug"
-msgstr ""
+msgstr "ауг."
 
 #: utils/dates.py:24
 msgid "sep"
-msgstr ""
+msgstr "сеп."
 
 #: utils/dates.py:24
 msgid "oct"
-msgstr ""
+msgstr "окт."
 
 #: utils/dates.py:24
 msgid "nov"
-msgstr ""
+msgstr "нов."
 
 #: utils/dates.py:24
 msgid "dec"
-msgstr ""
+msgstr "дец."
 
 #: utils/dates.py:31
 msgid "Jan."
-msgstr ""
+msgstr "јан."
 
 #: utils/dates.py:31
 msgid "Feb."
-msgstr ""
+msgstr "беб."
 
 #: utils/dates.py:32
 msgid "Aug."
-msgstr ""
+msgstr "ауг."
 
 #: utils/dates.py:32
 msgid "Sept."
-msgstr ""
+msgstr "септ."
 
 #: utils/dates.py:32
 msgid "Oct."
-msgstr ""
+msgstr "окт."
 
 #: utils/dates.py:32
 msgid "Nov."
-msgstr ""
+msgstr "нов."
 
 #: utils/dates.py:32
 msgid "Dec."
-msgstr ""
+msgstr "дец."
 
 #: utils/text.py:128
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #: utils/timesince.py:21
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "година"
+msgstr[1] "година"
 
 #: utils/timesince.py:22
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "месец"
+msgstr[1] "месеци"
 
 #: utils/timesince.py:23
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "недеља"
+msgstr[1] "недеља"
 
 #: utils/timesince.py:24
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "дан"
+msgstr[1] "дана"
 
 #: utils/timesince.py:25
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "сат"
+msgstr[1] "сати"
 
 #: utils/timesince.py:26
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "минут"
+msgstr[1] "минута"
 
 #: utils/timesince.py:43
 msgid "minutes"
-msgstr ""
+msgstr "минута"
 
 #: utils/timesince.py:48
 #, python-format
 msgid "%(number)d %(type)s"
-msgstr ""
+msgstr "%(number)d %(type)s"
 
 #: utils/timesince.py:54
 #, python-format
 msgid ", %(number)d %(type)s"
-msgstr ""
+msgstr ", %(number)d %(type)s"
 
 #: utils/translation/trans_real.py:403
 msgid "DATE_FORMAT"
-msgstr "N j, Y"
+msgstr "j. N. Y."
 
 #: utils/translation/trans_real.py:405
 msgid "TIME_FORMAT"
@@ -4003,24 +4015,24 @@ msgstr "P"
 
 #: utils/translation/trans_real.py:421
 msgid "YEAR_MONTH_FORMAT"
-msgstr "F Y"
+msgstr "F Y."
 
 #: utils/translation/trans_real.py:422
 msgid "MONTH_DAY_FORMAT"
-msgstr "F j"
+msgstr "j. F"
 
 #: views/generic/create_update.py:114
 #, python-format
 msgid "The %(verbose_name)s was created successfully."
-msgstr ""
+msgstr "%(verbose_name)s је успешно креиран."
 
 #: views/generic/create_update.py:156
 #, python-format
 msgid "The %(verbose_name)s was updated successfully."
-msgstr ""
+msgstr "%(verbose_name)s је успешно ажуриран."
 
 #: views/generic/create_update.py:198
 #, python-format
 msgid "The %(verbose_name)s was deleted."
-msgstr ""
+msgstr "%(verbose_name)s је уклоњен."
 
