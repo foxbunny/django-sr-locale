@@ -2,9 +2,9 @@
 # coding=utf-8
 
 import re
-import optparse
 import codecs
 from StringIO import StringIO
+import sys
 
 __VERSION__ = "0.0.1"
 
@@ -132,12 +132,12 @@ $ python cyr2lat.py mytextfile.txt
 
 
 def main():
-    switches = optparse.OptionParser()
-    options, arguments = switches.parse_args()
-
-    if not len(arguments):
+    try:
+        arguments = sys.argv[1:] 
+    except IndexError:
         printdocs()
-    else:
+        quit()
+    for argument in arguments:
         cloaca = StringIO()
         for argument in arguments:
             try:
@@ -150,7 +150,7 @@ Please specify a valid file.""" % argument, code=2)
             infile.close()
             current = transliterate(current, PAIRS)
             cloaca.write(current)
-        print cloaca.getvalue()
+        print cloaca.getvalue().encode("utf-8")
         cloaca.close()
 
 if __name__ == "__main__":
