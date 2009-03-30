@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-30 02:11+0200\n"
-"PO-Revision-Date: 2009-03-30 02:02-0700\n"
+"PO-Revision-Date: 2009-03-30 13:52+0200\n"
 "Last-Translator: Branko Vukelic <bg.branko@gmail.com>\n"
 "Language-Team: SERBIAN <bg.branko@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr "hebrejski"
 
 #: conf/global_settings.py:65
 msgid "Hindi"
-msgstr ""
+msgstr "hindu"
 
 #: conf/global_settings.py:66
 msgid "Croatian"
@@ -157,7 +157,6 @@ msgid "Polish"
 msgstr "poljski"
 
 #: conf/global_settings.py:80
-#, fuzzy
 msgid "Portuguese"
 msgstr "portugalski"
 
@@ -198,9 +197,8 @@ msgid "Telugu"
 msgstr "telugu"
 
 #: conf/global_settings.py:90
-#, fuzzy
 msgid "Thai"
-msgstr "tamilski"
+msgstr "tajlandski"
 
 #: conf/global_settings.py:91
 msgid "Turkish"
@@ -265,9 +263,8 @@ msgid "Unknown"
 msgstr "Nepoznato"
 
 #: contrib/admin/helpers.py:14
-#, fuzzy
 msgid "Action:"
-msgstr "Radnja"
+msgstr "Radnja:"
 
 #: contrib/admin/models.py:19
 msgid "action time"
@@ -304,7 +301,7 @@ msgstr "Ništa"
 #: contrib/admin/options.py:498
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr ""
+msgstr "Uspešno obrisano %(count)d %(items)s."
 
 #: contrib/admin/options.py:505 contrib/admin/options.py:1012
 msgid "Are you sure?"
@@ -313,7 +310,7 @@ msgstr "Da li ste sigurni?"
 #: contrib/admin/options.py:523
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
-msgstr ""
+msgstr "Briši označene %(verbose_name_plural)s"
 
 #: contrib/admin/options.py:531
 #, python-format
@@ -368,7 +365,8 @@ msgstr "%(name)s \"%(obj)s\" je uspešno izmenjen."
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
-msgstr "%(name)s \"%(obj)s\" je uspešno dodat. Dole možete uneti izmene."
+msgstr ""
+"%(name)s \"%(obj)s\" je uspešno dodat. Dole možete uneti dodatne izmene."
 
 #: contrib/admin/options.py:774
 #, python-format
@@ -378,7 +376,7 @@ msgstr "Dodaj %s"
 #: contrib/admin/options.py:805 contrib/admin/options.py:990
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr ""
+msgstr "Objekat %(name)s sa primarnik ključem %(key)r ne postoji."
 
 #: contrib/admin/options.py:862
 #, python-format
@@ -390,11 +388,11 @@ msgid "Database error"
 msgstr "Greška u bazi podataka"
 
 #: contrib/admin/options.py:930
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "%(name)s \"%(obj)s\" je uspešno izmenjen."
-msgstr[1] "%(name)s \"%(obj)s\" je uspešno izmenjen."
+msgstr[0] "%(count)s %(name)s je uspešno izmenjen."
+msgstr[1] "%(count)s %(name)s su uspešno izmenjenu."
 
 #: contrib/admin/options.py:1005
 #, python-format
@@ -463,11 +461,10 @@ msgid "One or more %(fieldname)s in %(name)s:"
 msgstr "Jedan ili više polja %(fieldname)s u %(name)s"
 
 #: contrib/admin/util.py:222
-#, fuzzy
 msgid "verbose_name"
 msgid_plural "verbose_name_plural"
-msgstr[0] "korisnikovo ime"
-msgstr[1] "korisnikovo ime"
+msgstr[0] "verbose_name"
+msgstr[1] "verbose_name_plural"
 
 #: contrib/admin/widgets.py:70
 msgid "Date:"
@@ -545,7 +542,7 @@ msgstr ""
 
 #: contrib/admin/templates/admin/actions.html:4
 msgid "Run the selected action"
-msgstr ""
+msgstr "Pokreni odabranu radnju"
 
 #: contrib/admin/templates/admin/actions.html:4
 #: contrib/admin/templates/admin/search_form.html:8
@@ -655,28 +652,27 @@ msgid "Yes, I'm sure"
 msgstr "Da, siguran sam"
 
 #: contrib/admin/templates/admin/delete_selected_confirmation.html:9
-#, fuzzy
 msgid "Delete multiple objects"
-msgstr "Obrisan %(name)s \"%(object)s\"."
+msgstr "Brisanje više objekata"
 
 #: contrib/admin/templates/admin/delete_selected_confirmation.html:15
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Deleting the %(object_name)s would result in deleting related objects, but "
 "your account doesn't have permission to delete the following types of "
 "objects:"
 msgstr ""
-"Uklanjanje %(object_name)s '%(escaped_object)s' povlači uklanjanje svi "
-"objekatakoji su povezani sa ovim objektom, ali vaš nalog nema dozvole za "
-"brisanje sledećih tipova objekata:"
+"Uklanjanje %(object_name)s povlači uklanjanje svih objekata koji su povezani "
+"sa ovim objektom, ali vaš nalog nema dozvole za brisanje sledećih tipova "
+"objekata:"
 
 #: contrib/admin/templates/admin/delete_selected_confirmation.html:22
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Are you sure you want to delete the selected %(object_name)s objects? All of "
 "the following objects and it's related items will be deleted:"
 msgstr ""
-"Da sigurni da želite da obrišete %(object_name)s \"%(escaped_object)s\"? "
+"Da sigurni da želite da obrišete odabrane %(object_name)s? "
 "Sledeći objekti koji su u vezi sa ovim objektom će takođe biti obrisani:"
 
 #: contrib/admin/templates/admin/filter.html:2
@@ -944,7 +940,7 @@ msgstr "za vaš korisnički nalog na sajtu %(site_name)s"
 
 #: contrib/admin/templates/registration/password_reset_email.html:5
 msgid "Please go to the following page and choose a new password:"
-msgstr ""
+msgstr "Idite na sledeću stranicu i postavite novu lozinku."
 
 #: contrib/admin/templates/registration/password_reset_email.html:9
 msgid "Your username, in case you've forgotten:"
@@ -1272,8 +1268,8 @@ msgid ""
 "Your Web browser doesn't appear to have cookies enabled. Cookies are "
 "required for logging in."
 msgstr ""
-"Izgleda da su kolačići (cookies) isključeni u vašem brauzeru. Oni moraju "
-"biti uključeni da bi ste se prijavili."
+"Izgleda da su kolačići (cookies) isključeni u vašem brauzeru. Oni moraju biti "
+"uključeni da bi ste se prijavili."
 
 #: contrib/auth/forms.py:100
 msgid "E-mail"
@@ -1366,8 +1362,8 @@ msgstr "staff status"
 
 #: contrib/auth/models.py:132
 msgid "Designates whether the user can log into this admin site."
-msgstr ""
-"Označava da li korisnik može da se prijavi na ovaj sajt za administraciju."
+msgstr "Označava da li korisnik može da se prijavi na ovaj sajt za "
+"administraciju."
 
 #: contrib/auth/models.py:133
 msgid "active"
@@ -1390,8 +1386,7 @@ msgid ""
 "Designates that this user has all permissions without explicitly assigning "
 "them."
 msgstr ""
-"Označava da li korisnik ima sve dozvole bez dodeljivanja pojedinačnih "
-"dozvola."
+"Označava da li korisnik ima sve dozvole bez dodeljivanja pojedinačnih dozvola."
 
 #: contrib/auth/models.py:135
 msgid "last login"
@@ -1459,8 +1454,8 @@ msgstr "Komentari"
 #, python-format
 msgid "Watch your mouth! The word %s is not allowed here."
 msgid_plural "Watch your mouth! The words %s are not allowed here."
-msgstr[0] "Pazi na jezik! Reč %s ovde nije dozvoljena."
-msgstr[1] "Pazi na jezik! Reči %s ovde nisu dozvoljene."
+msgstr[0] "Pazi na jezik! Reč \"%s\" ovde nije dozvoljena."
+msgstr[1] "Pazi na jezik! Reči \"%s\" ovde nisu dozvoljene."
 
 #: contrib/comments/forms.py:180
 msgid ""
@@ -1503,15 +1498,15 @@ msgstr ""
 
 #: contrib/comments/models.py:62
 msgid "is removed"
-msgstr "obrisan"
+msgstr "uklonjen"
 
 #: contrib/comments/models.py:63
 msgid ""
 "Check this box if the comment is inappropriate. A \"This comment has been "
 "removed\" message will be displayed instead."
 msgstr ""
-"Obeležite ovu kućicu ako je komentar neprikladan. Poruka o uklanjanju će "
-"biti prikazana umesto komentara."
+"Obeležite ovu kućicu ako je komentar neprikladan. Poruka o uklanjanju će biti "
+"prikazana umesto komentara."
 
 #: contrib/comments/models.py:115
 msgid ""
@@ -1545,23 +1540,21 @@ msgstr ""
 "http://%(domain)s%(url)s"
 
 #: contrib/comments/templates/comments/approve.html:4
-#, fuzzy
 msgid "Approve a comment"
-msgstr "omogući komentarisanje"
+msgstr "Odobrenje komentara"
 
 #: contrib/comments/templates/comments/approve.html:7
 msgid "Really make this comment public?"
-msgstr ""
+msgstr "Da li zaista želite da označite ovaj komentar javnim?"
 
 #: contrib/comments/templates/comments/approve.html:12
 #: contrib/comments/templates/comments/moderation_queue.html:49
 msgid "Approve"
-msgstr ""
+msgstr "Odobri"
 
 #: contrib/comments/templates/comments/approved.html:4
-#, fuzzy
 msgid "Thanks for approving"
-msgstr "Hvala što koristite naš sajt!"
+msgstr "Hvala na odobrenju!"
 
 #: contrib/comments/templates/comments/approved.html:7
 #: contrib/comments/templates/comments/deleted.html:7
@@ -1569,109 +1562,98 @@ msgstr "Hvala što koristite naš sajt!"
 msgid ""
 "Thanks for taking the time to improve the quality of discussion on our site"
 msgstr ""
+"Hvala na učešću u unapređenju kvaliteta diskusija na našem sajtu."
 
 #: contrib/comments/templates/comments/delete.html:4
-#, fuzzy
 msgid "Remove a comment"
-msgstr "omogući komentarisanje"
+msgstr "Obriši komentar"
 
 #: contrib/comments/templates/comments/delete.html:7
 msgid "Really remove this comment?"
-msgstr ""
+msgstr "Da li zaista želite da obrišete ovaj komentar?"
 
 #: contrib/comments/templates/comments/delete.html:12
 #: contrib/comments/templates/comments/moderation_queue.html:53
-#, fuzzy
 msgid "Remove"
-msgstr "obrisan"
+msgstr "Obriši"
 
 #: contrib/comments/templates/comments/deleted.html:4
-#, fuzzy
 msgid "Thanks for removing"
 msgstr "Hvala što koristite naš sajt!"
 
 #: contrib/comments/templates/comments/flag.html:4
 msgid "Flag this comment"
-msgstr ""
+msgstr "Označavanje komentara"
 
 #: contrib/comments/templates/comments/flag.html:7
 msgid "Really flag this comment?"
-msgstr ""
+msgstr "Da li zaista želite da označite ovaj komentar?"
 
 #: contrib/comments/templates/comments/flag.html:12
 msgid "Flag"
-msgstr ""
+msgstr "Označi"
 
 #: contrib/comments/templates/comments/flagged.html:4
-#, fuzzy
 msgid "Thanks for flagging"
-msgstr "Hvala što koristite naš sajt!"
+msgstr "Hvala što ste označili komentar."
 
 #: contrib/comments/templates/comments/form.html:16
 #: contrib/comments/templates/comments/preview.html:31
-#, fuzzy
 msgid "Post"
-msgstr "-vi"
+msgstr "Postavi"
 
 #: contrib/comments/templates/comments/form.html:17
-#: contrib/comments/templates/comments/preview.html:32
-#, fuzzy
+#: contrib/comments/templates/comments/preview.html:3
 msgid "Preview"
-msgstr "pogled:"
+msgstr "Pregled"
 
 #: contrib/comments/templates/comments/moderation_queue.html:4
 #: contrib/comments/templates/comments/moderation_queue.html:19
 msgid "Comment moderation queue"
-msgstr ""
+msgstr "Komentari koji čekaju na odobrenje"
 
 #: contrib/comments/templates/comments/moderation_queue.html:26
 msgid "No comments to moderate"
-msgstr ""
+msgstr "Nema komentara na čekanju"
 
 #: contrib/comments/templates/comments/moderation_queue.html:36
-#, fuzzy
 msgid "Email"
 msgstr "E-mail"
 
 #: contrib/comments/templates/comments/moderation_queue.html:38
 msgid "Authenticated?"
-msgstr ""
+msgstr "Prijavljen?"
 
 #: contrib/comments/templates/comments/moderation_queue.html:39
-#, fuzzy
 msgid "IP Address"
 msgstr "IP adresa"
 
 #: contrib/comments/templates/comments/moderation_queue.html:40
-#, fuzzy
 msgid "Date posted"
-msgstr "datum registracije"
+msgstr "Datum postavljanja"
 
 #: contrib/comments/templates/comments/moderation_queue.html:63
-#, fuzzy
 msgid "yes"
-msgstr "Da"
+msgstr "da"
 
 #: contrib/comments/templates/comments/moderation_queue.html:63
-#, fuzzy
 msgid "no"
-msgstr "nov."
+msgstr "ne"
 
 #: contrib/comments/templates/comments/posted.html:4
 msgid "Thanks for commenting"
-msgstr ""
+msgstr "Hvala na komentaru"
 
 #: contrib/comments/templates/comments/posted.html:7
 msgid "Thank you for your comment"
-msgstr ""
+msgstr "Hvala što ste ostavili svoj komentar"
 
 #: contrib/comments/templates/comments/preview.html:4
 #: contrib/comments/templates/comments/preview.html:12
 msgid "Preview your comment"
-msgstr ""
+msgstr "Pregledaj komentar"
 
 #: contrib/comments/templates/comments/preview.html:10
-#, fuzzy
 msgid "Please correct the error below"
 msgid_plural "Please correct the errors below"
 msgstr[0] "Ispravite grešku dole."
@@ -1679,12 +1661,11 @@ msgstr[1] "Ispravite greške dole."
 
 #: contrib/comments/templates/comments/preview.html:15
 msgid "Post your comment"
-msgstr ""
+msgstr "Postavi komentar"
 
 #: contrib/comments/templates/comments/preview.html:15
-#, fuzzy
 msgid "or make changes"
-msgstr "Bez izmena u poljima."
+msgstr "ili izvrši izmene"
 
 #: contrib/contenttypes/models.py:67
 msgid "python model class name"
@@ -1748,8 +1729,7 @@ msgstr "potrebna registracija"
 #: contrib/flatpages/models.py:13
 msgid "If this is checked, only logged-in users will be able to view the page."
 msgstr ""
-"Ako je ovo obeleženo, samo će prijavljeni korisnici moći da vide ovu "
-"stranicu."
+"Ako je ovo obeleženo, samo će prijavljeni korisnici moći da vide ovu stranicu."
 
 #: contrib/flatpages/models.py:18
 msgid "flat page"
@@ -4349,3 +4329,4 @@ msgstr "%(verbose_name)s je uspešno ažuriran."
 #, python-format
 msgid "The %(verbose_name)s was deleted."
 msgstr "%(verbose_name)s je obrisan."
+
