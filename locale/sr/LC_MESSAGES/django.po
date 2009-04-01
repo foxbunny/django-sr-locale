@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-30 02:11+0200\n"
-"PO-Revision-Date: 2009-03-30 13:52+0200\n"
+"PO-Revision-Date: 2009-04-01 18:38+0200\n"
 "Last-Translator: Branko Vukelic <bg.branko@gmail.com>\n"
 "Language-Team: SERBIAN <bg.branko@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -3881,7 +3881,7 @@ msgstr[1] "Унесите исправан %(self)s IDs. Вредности %(va
 
 #: forms/fields.py:54
 msgid "This field is required."
-msgstr "Ово пиље се мора попунити."
+msgstr "Ово поље се мора попунити."
 
 #: forms/fields.py:55
 msgid "Enter a valid value."
