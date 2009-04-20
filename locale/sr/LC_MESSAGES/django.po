@@ -1357,9 +1357,8 @@ msgstr ""
 "унос лозинке</a>."
 
 #: contrib/auth/models.py:132
-#,fuzzy
 msgid "staff status"
-msgstr "статус члана посаде"
+msgstr "статус члана уредништва"
 
 #: contrib/auth/models.py:132
 msgid "Designates whether the user can log into this admin site."
