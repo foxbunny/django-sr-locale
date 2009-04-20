@@ -582,11 +582,11 @@ msgstr "Одјава"
 
 #: contrib/admin/templates/admin/base_site.html:4
 msgid "Django site admin"
-msgstr "Django site admin"
+msgstr "Django администрација сајта"
 
 #: contrib/admin/templates/admin/base_site.html:7
 msgid "Django administration"
-msgstr "Django administration"
+msgstr "Django администрација"
 
 #: contrib/admin/templates/admin/change_form.html:20
 #: contrib/admin/templates/admin/index.html:29
@@ -1006,7 +1006,7 @@ msgstr "филтер:"
 #: contrib/admindocs/views.py:155 contrib/admindocs/views.py:157
 #: contrib/admindocs/views.py:159
 msgid "view:"
-msgstr "поглед:"
+msgstr "вју:"
 
 #: contrib/admindocs/views.py:187
 #, python-format
@@ -1056,7 +1056,7 @@ msgstr "Цео број"
 
 #: contrib/admindocs/views.py:316
 msgid "Boolean (Either True or False)"
-msgstr "Булова вредност (True или False)"
+msgstr "Булова вредност (Тачно или False)"
 
 #: contrib/admindocs/views.py:317 contrib/admindocs/views.py:336
 #, python-format
@@ -1098,7 +1098,7 @@ msgstr "IP адреса"
 
 #: contrib/admindocs/views.py:331
 msgid "Boolean (Either True, False or None)"
-msgstr "Булова вредност (True или False)"
+msgstr "Булова вредност (True, False или None)"
 
 #: contrib/admindocs/views.py:332
 msgid "Relation to parent model"
@@ -1357,9 +1357,9 @@ msgstr ""
 "унос лозинке</a>."
 
 #: contrib/auth/models.py:132
-# проверити
+#,fuzzy
 msgid "staff status"
-msgstr "staff статус"
+msgstr "статус члана посаде"
 
 #: contrib/auth/models.py:132
 msgid "Designates whether the user can log into this admin site."
@@ -1379,9 +1379,8 @@ msgstr ""
 "бришете налог."
 
 #: contrib/auth/models.py:134
-# проверити
 msgid "superuser status"
-msgstr "superuser статус"
+msgstr "статус администратора"
 
 #: contrib/auth/models.py:134
 msgid ""
@@ -1735,11 +1734,11 @@ msgstr ""
 
 #: contrib/flatpages/models.py:18
 msgid "flat page"
-msgstr "flat страница"
+msgstr "флет страница"
 
 #: contrib/flatpages/models.py:19
 msgid "flat pages"
-msgstr "flat страница"
+msgstr "флет странице"
 
 #: contrib/formtools/wizard.py:130
 msgid ""
@@ -1848,7 +1847,7 @@ msgstr "јуче"
 
 #: contrib/localflavor/ar/forms.py:27
 msgid "Enter a postal code in the format NNNN or ANNNNAAA."
-msgstr "Унесите поштански број у формату NNNN или ANNNNAAA."
+msgstr "Унесите поштански број у формату НННН или АННННААА."
 
 #: contrib/localflavor/ar/forms.py:49 contrib/localflavor/br/forms.py:96
 #: contrib/localflavor/br/forms.py:135 contrib/localflavor/pe/forms.py:23
@@ -2139,23 +2138,20 @@ msgid "Enter a postal code in the format XXXXX or XXX XX."
 msgstr ""
 
 #: contrib/localflavor/cz/forms.py:47
-#, fuzzy
 msgid "Enter a birth number in the format XXXXXX/XXXX or XXXXXXXXXX."
-msgstr "Унесите поштански број у формату XXXXX-XXX."
+msgstr ""
 
 #: contrib/localflavor/cz/forms.py:48
 msgid "Invalid optional parameter Gender, valid values are 'f' and 'm'"
 msgstr ""
 
 #: contrib/localflavor/cz/forms.py:49
-#, fuzzy
 msgid "Enter a valid birth number."
-msgstr "Унесите исправно време"
+msgstr ""
 
 #: contrib/localflavor/cz/forms.py:106
-#, fuzzy
 msgid "Enter a valid IC number."
-msgstr "Унесите исправно време"
+msgstr ""
 
 #: contrib/localflavor/de/de_states.py:5
 msgid "Baden-Wuerttemberg"
@@ -3854,9 +3850,8 @@ msgid "This value must be a decimal number."
 msgstr "Ова вредност мора бити децимални број"
 
 #: db/models/fields/__init__.py:676
-#, fuzzy
 msgid "This value must be a float."
-msgstr "Ова вредност мора бити целобројна"
+msgstr "Ова вредност мора бити број са клизећом запетом"
 
 #: db/models/fields/__init__.py:736
 msgid "This value must be either None, True or False."
@@ -3864,7 +3859,7 @@ msgstr "Ова вредност мора бити или None, или True, ил
 
 #: db/models/fields/__init__.py:839 db/models/fields/__init__.py:853
 msgid "Enter a valid time in HH:MM[:ss[.uuuuuu]] format."
-msgstr "Унесите исправно време у формату HH:MM[:ss[.uuuuuu]]."
+msgstr "Унесите исправно време у формату ЧЧ:ММ[:сс[.уууууу]]."
 
 #: db/models/fields/related.py:779
 msgid ""
@@ -3993,7 +3988,7 @@ msgstr "Унесите исправну IPv4 адресу."
 msgid ""
 "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Унесите исрпаван „slug“, који се састоји од слова, бројки, доњих црта или "
+"Унесите исрпаван „слаг“, који се састоји од слова, бројки, доњих црта или "
 "циртица."
 
 #: forms/formsets.py:247 forms/formsets.py:249
