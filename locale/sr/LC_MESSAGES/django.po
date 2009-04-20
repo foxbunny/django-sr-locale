@@ -14,11 +14,11 @@ msgstr ""
 
 #: conf/global_settings.py:44
 msgid "Arabic"
-msgstr "Арапски"
+msgstr "арапски"
 
 #: conf/global_settings.py:45
 msgid "Bengali"
-msgstr "Бенгалски"
+msgstr "бенгалски"
 
 #: conf/global_settings.py:46
 msgid "Bulgarian"
@@ -320,22 +320,22 @@ msgstr "Измењен %s"
 #: contrib/admin/options.py:531 contrib/admin/options.py:541
 #: contrib/comments/templates/comments/preview.html:15 forms/models.py:296
 msgid "and"
-msgstr "u"
+msgstr "и"
 
 #: contrib/admin/options.py:536
 #, python-format
 msgid "Added %(name)s \"%(object)s\"."
-msgstr "Додат %(name)s \"%(object)s\"."
+msgstr "Додат %(name)s „%(object)s“."
 
 #: contrib/admin/options.py:540
 #, python-format
 msgid "Changed %(list)s for %(name)s \"%(object)s\"."
-msgstr "Измењен %(list)s за %(name)s \"%(object)s\"."
+msgstr "Измењен %(list)s за %(name)s „%(object)s“."
 
 #: contrib/admin/options.py:545
 #, python-format
 msgid "Deleted %(name)s \"%(object)s\"."
-msgstr "Обрисан %(name)s \"%(object)s\"."
+msgstr "Обрисан %(name)s „%(object)s“."
 
 #: contrib/admin/options.py:549
 msgid "No fields changed."
@@ -344,7 +344,7 @@ msgstr "Без измена у пољима."
 #: contrib/admin/options.py:610 contrib/auth/admin.py:67
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was added successfully."
-msgstr "%(name)s \"%(obj)s\" успешно додат."
+msgstr "%(name)s „%(obj)s“ успешно додат."
 
 #: contrib/admin/options.py:614 contrib/admin/options.py:647
 #: contrib/auth/admin.py:75
@@ -359,14 +359,14 @@ msgstr "Доле можете додати нови %s"
 #: contrib/admin/options.py:645
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was changed successfully."
-msgstr "%(name)s \"%(obj)s\" је успешно измењен."
+msgstr "%(name)s „%(obj)s“ је успешно измењен."
 
 #: contrib/admin/options.py:653
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
 msgstr ""
-"%(name)s \"%(obj)s\" је успешно додат. Доле можете унети додатне измене."
+"%(name)s „%(obj)s“ је успешно додат. Доле можете унети додатне измене."
 
 #: contrib/admin/options.py:774
 #, python-format
@@ -376,7 +376,7 @@ msgstr "Додај %s"
 #: contrib/admin/options.py:805 contrib/admin/options.py:990
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr "Објекат %(name)s са примарник кључем %(key)r не постоји."
+msgstr "Објекат %(name)s са примарним кључем %(key)r не постоји."
 
 #: contrib/admin/options.py:862
 #, python-format
@@ -392,12 +392,12 @@ msgstr "Грешка у бази података"
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
 msgstr[0] "%(count)s %(name)s је успешно измењен."
-msgstr[1] "%(count)s %(name)s су успешно измењенu."
+msgstr[1] "%(count)s %(name)s су успешно измењени."
 
 #: contrib/admin/options.py:1005
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was deleted successfully."
-msgstr "%(name)s \"%(obj)s\" је успешно обрисан."
+msgstr "%(name)s „%(obj)s“ је успешно обрисан."
 
 #: contrib/admin/options.py:1041
 #, python-format
@@ -415,7 +415,7 @@ msgstr ""
 
 #: contrib/admin/sites.py:250 contrib/admin/views/decorators.py:40
 msgid "Please log in again, because your session has expired."
-msgstr "Улогујте се поново пошто је ваша сесија истекла."
+msgstr "Пријавите се поново пошто је ваша сесија истекла."
 
 #: contrib/admin/sites.py:257 contrib/admin/views/decorators.py:47
 msgid ""
@@ -428,12 +428,12 @@ msgstr ""
 #: contrib/admin/sites.py:273 contrib/admin/sites.py:279
 #: contrib/admin/views/decorators.py:66
 msgid "Usernames cannot contain the '@' character."
-msgstr "Корисничка имена не смеју садржати знак \"@\"."
+msgstr "Корисничка имена не смеју садржати знак „@“."
 
 #: contrib/admin/sites.py:276 contrib/admin/views/decorators.py:62
 #, python-format
 msgid "Your e-mail address is not your username. Try '%s' instead."
-msgstr "Ваша e-mail адреса није ваше корисничко име. Пробајте са \"%s\"."
+msgstr "Ваша e-mail адреса није ваше корисничко име. Пробајте са „%s“."
 
 #: contrib/admin/sites.py:336
 msgid "Site administration"
@@ -633,8 +633,8 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
-"Уклањање %(object_name)s '%(escaped_object)s' повлачи уклањање сви "
-"објекатакоји су повезани са овим објектом, али ваш налог нема дозволе за "
+"Уклањање %(object_name)s „%(escaped_object)s“ повлачи уклањање свих "
+"објеката који су повезани са овим објектом, али ваш налог нема дозволе за "
 "брисање следећих типова објеката:"
 
 #: contrib/admin/templates/admin/delete_confirmation.html:23
@@ -643,7 +643,7 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"Да сигурни да желите да обришете %(object_name)s \"%(escaped_object)s\"? "
+"Да сигурни да желите да обришете %(object_name)s „%(escaped_object)s“? "
 "Следећи објекти који су у вези са овим објектом ће такође бити обрисани:"
 
 #: contrib/admin/templates/admin/delete_confirmation.html:28
@@ -877,7 +877,7 @@ msgstr "Измени моју лозинку"
 #: contrib/admin/templates/registration/password_reset_form.html:6
 #: contrib/admin/templates/registration/password_reset_form.html:10
 msgid "Password reset"
-msgstr "Рестеовање лозинке"
+msgstr "Ресетовање лозинке"
 
 #: contrib/admin/templates/registration/password_reset_complete.html:6
 #: contrib/admin/templates/registration/password_reset_complete.html:10
@@ -886,7 +886,7 @@ msgstr "Ресетовање лозинке успешно"
 
 #: contrib/admin/templates/registration/password_reset_complete.html:12
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr "Ваша лозинка је постављена.  Можете се привавити."
+msgstr "Ваша лозинка је постављена.  Можете се пријавити."
 
 #: contrib/admin/templates/registration/password_reset_confirm.html:4
 msgid "Password reset confirmation"
@@ -913,7 +913,7 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
-"Линк за ресетовање лозинке је неважећи, вероватно зато што је већ "
+"Линк за ресетовање лозинке није важећи, вероватно зато што је већ "
 "искоришћен.  Поново затражите ресетовање лозинке."
 
 #: contrib/admin/templates/registration/password_reset_done.html:6
@@ -1065,7 +1065,7 @@ msgstr "Стринг (најдуже %(max_length)s)"
 
 #: contrib/admindocs/views.py:318
 msgid "Comma-separated integers"
-msgstr "Цели бројеви раздвојене запетама"
+msgstr "Цели бројеви раздвојени запетама"
 
 #: contrib/admindocs/views.py:319
 msgid "Date (without time)"
@@ -1158,9 +1158,9 @@ msgstr ""
 "букмаркова или кликните десним дугметом и додајте међу букмарке. Након тога\n"
 "букмарклетима можете приступити са сваке странице на сајту. Имајте на уму\n"
 "да неки букмарклети захтевају да сајту приступите са рачунара који су\n"
-"означени као \"интерни\" (питајте администратора вашег система уколико "
+"означени као „интерни“ (питајте администратора вашег система уколико "
 "нисте\n"
-"сигурни да ли је ваш рачунар \"интерни\").</p>\n"
+"сигурни да ли је ваш рачунар „интерни“).</p>\n"
 
 #: contrib/admindocs/templates/admin_doc/bookmarklets.html:18
 msgid "Documentation for this page"
@@ -1171,7 +1171,7 @@ msgid ""
 "Jumps you from any page to the documentation for the view that generates "
 "that page."
 msgstr ""
-"Води вас од било које странице до документаицје погледа који је генерисао ту "
+"Води од било које странице до документаицје погледа који је генерисао ту "
 "страницу."
 
 #: contrib/admindocs/templates/admin_doc/bookmarklets.html:21
@@ -1226,7 +1226,7 @@ msgstr "Додај корисника"
 
 #: contrib/auth/admin.py:106
 msgid "Password changed successfully."
-msgstr "Лозинка успешно измењенеа."
+msgstr "Лозинка успешно измењена."
 
 #: contrib/auth/admin.py:112
 #, python-format
@@ -1239,7 +1239,7 @@ msgid ""
 "Required. 30 characters or fewer. Alphanumeric characters only (letters, "
 "digits and underscores)."
 msgstr ""
-"Захтевано. 30 словних места или мање. Само алфанумерички знаци (слова, "
+"Захтевано. Највише 30 словних места. Само алфанумерички знаци (слова, "
 "бројке и доња црта)."
 
 #: contrib/auth/forms.py:16 contrib/auth/forms.py:49
@@ -1310,7 +1310,7 @@ msgstr "име"
 
 #: contrib/auth/models.py:65
 msgid "codename"
-msgstr "корисничко име"
+msgstr "шифра дозволе"
 
 #: contrib/auth/models.py:68
 msgid "permission"
@@ -1357,6 +1357,7 @@ msgstr ""
 "унос лозинке</a>."
 
 #: contrib/auth/models.py:132
+# проверити
 msgid "staff status"
 msgstr "staff статус"
 
@@ -1378,6 +1379,7 @@ msgstr ""
 "бришете налог."
 
 #: contrib/auth/models.py:134
+# проверити
 msgid "superuser status"
 msgstr "superuser статус"
 
@@ -1454,8 +1456,8 @@ msgstr "Коментари"
 #, python-format
 msgid "Watch your mouth! The word %s is not allowed here."
 msgid_plural "Watch your mouth! The words %s are not allowed here."
-msgstr[0] "Пази на језик! Реч \"%s\" овде није дозвољена."
-msgstr[1] "Пази на језик! Речи \"%s\" овде нису дозвољене."
+msgstr[0] "Пази на језик! Реч „%s“ овде није дозвољена."
+msgstr[1] "Пази на језик! Речи „%s“ овде нису дозвољене."
 
 #: contrib/comments/forms.py:180
 msgid ""
@@ -3868,7 +3870,7 @@ msgstr "Унесите исправно време у формату HH:MM[:ss[.
 msgid ""
 "Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
 msgstr ""
-"Држите \"Control\", или \"Command\" на Mac-у да бисте обележили више од "
+"Држите „Control“, или „Command“ на Mac-у да бисте обележили више од "
 "једне ставке."
 
 #: db/models/fields/related.py:857
@@ -3891,13 +3893,14 @@ msgstr "Унесите исправну вредност."
 #, python-format
 msgid "Ensure this value has at most %(max)d characters (it has %(length)d)."
 msgstr ""
-"Ово поље може садржати највише %(max)d словних места (тренутно има %(length)"
+"Ово поље мора садржати највише %(max)d словних места (тренутно има %(length)"
 "d)."
 
 #: forms/fields.py:139
 #, python-format
 msgid "Ensure this value has at least %(min)d characters (it has %(length)d)."
-msgstr ""
+msgstr "Ово поље мора садржати најмање %(min)d словних места (тренутно има "
+"%(length)d."
 
 #: forms/fields.py:166
 msgid "Enter a whole number."
@@ -3906,7 +3909,7 @@ msgstr "Унесите цео број."
 #: forms/fields.py:167 forms/fields.py:196 forms/fields.py:225
 #, python-format
 msgid "Ensure this value is less than or equal to %s."
-msgstr "Ова вредност мора да буде мања од %s. или тачно толико."
+msgstr "Ова вредност мора да буде мања од %s или тачно толико."
 
 #: forms/fields.py:168 forms/fields.py:197 forms/fields.py:226
 #, python-format
@@ -3990,7 +3993,7 @@ msgstr "Унесите исправну IPv4 адресу."
 msgid ""
 "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Унесите исрпаван slug, који се састоји од слова, бројки, доњиц црта или "
+"Унесите исрпаван „slug“, који се састоји од слова, бројки, доњих црта или "
 "циртица."
 
 #: forms/formsets.py:247 forms/formsets.py:249
