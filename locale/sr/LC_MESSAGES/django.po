@@ -1056,7 +1056,7 @@ msgstr "Цео број"
 
 #: contrib/admindocs/views.py:316
 msgid "Boolean (Either True or False)"
-msgstr "Булова вредност (Тачно или False)"
+msgstr "Булова вредност (True или False)"
 
 #: contrib/admindocs/views.py:317 contrib/admindocs/views.py:336
 #, python-format
