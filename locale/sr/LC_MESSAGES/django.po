@@ -3842,7 +3842,7 @@ msgstr "Неисправан датум: %s"
 
 #: db/models/fields/__init__.py:540 db/models/fields/__init__.py:558
 msgid "Enter a valid date/time in YYYY-MM-DD HH:MM[:ss[.uuuuuu]] format."
-msgstr "Унесите исправан датум/време у формату YYYY-MM-DD HH:MM[:ss[.uuuuuu]."
+msgstr "Унесите исправан датум/време у формату ГГГГ-ММ-ДД ЧЧ:ММ[:сс[.уууууу]."
 
 #: db/models/fields/__init__.py:594
 msgid "This value must be a decimal number."
@@ -4302,7 +4302,7 @@ msgstr "j. N. Y."
 
 #: utils/translation/trans_real.py:401
 msgid "TIME_FORMAT"
-msgstr "P"
+msgstr "G:i"
 
 #: utils/translation/trans_real.py:417
 msgid "YEAR_MONTH_FORMAT"
