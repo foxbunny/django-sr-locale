@@ -1358,7 +1358,7 @@ msgstr ""
 
 #: contrib/auth/models.py:132
 msgid "staff status"
-msgstr "статус члана уредништва"
+msgstr "статус члана посаде"
 
 #: contrib/auth/models.py:132
 msgid "Designates whether the user can log into this admin site."
