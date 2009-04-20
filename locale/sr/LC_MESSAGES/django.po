@@ -738,7 +738,7 @@ msgstr "Радња"
 #: contrib/admin/templates/admin/object_history.html:30
 #: utils/translation/trans_real.py:400
 msgid "DATETIME_FORMAT"
-msgstr "j. N. Y., P"
+msgstr "j. N. Y. G:i T"
 
 #: contrib/admin/templates/admin/object_history.html:38
 msgid ""
