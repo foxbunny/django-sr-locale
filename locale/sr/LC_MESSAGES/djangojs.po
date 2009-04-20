@@ -36,7 +36,7 @@ msgstr "Одабрани %s"
 
 #: contrib/admin/media/js/SelectFilter2.js:54
 msgid "Select your choice(s) and click "
-msgstr "Направите избор и кликните"
+msgstr "Направите избор и кликните "
 
 #: contrib/admin/media/js/SelectFilter2.js:59
 msgid "Clear all"
