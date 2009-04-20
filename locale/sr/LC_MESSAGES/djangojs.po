@@ -19,7 +19,7 @@ msgstr "Доступни %s"
 
 #: contrib/admin/media/js/SelectFilter2.js:41
 msgid "Choose all"
-msgstr "Одабери све"
+msgstr "Додај све"
 
 #: contrib/admin/media/js/SelectFilter2.js:46
 msgid "Add"
