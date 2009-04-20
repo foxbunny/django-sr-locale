@@ -15,7 +15,7 @@ msgstr ""
 #: contrib/admin/media/js/SelectFilter2.js:33
 #, perl-format
 msgid "Available %s"
-msgstr "Доступан %s"
+msgstr "Доступни %s"
 
 #: contrib/admin/media/js/SelectFilter2.js:41
 msgid "Choose all"
@@ -40,7 +40,7 @@ msgstr "Направите избор и кликните"
 
 #: contrib/admin/media/js/SelectFilter2.js:59
 msgid "Clear all"
-msgstr "Поништи све"
+msgstr "Врати све"
 
 #: contrib/admin/media/js/calendar.js:24
 #: contrib/admin/media/js/dateparse.js:32
