@@ -1030,21 +1030,27 @@ msgstr "модел:"
 
 #: contrib/admindocs/views.py:237
 #, python-format
+# WARN: possible breakage in future
+# This string is interpolated in strings below, which can cause breakage in 
+# future releases.
 msgid "related `%(app_label)s.%(object_name)s` objects"
 msgstr "класе `%(app_label)s.%(object_name)s`"
 
 #: contrib/admindocs/views.py:242
 #, python-format
+# WARN: possible breakage in future
 msgid "all %s"
 msgstr "сви повезани објекти %s"
 
 #: contrib/admindocs/views.py:247
 #, python-format
+# WARN: possible breakage in future
 msgid "number of %s"
 msgstr "број повезаних објеката %s"
 
 #: contrib/admindocs/views.py:252
 #, python-format
+# WARN: possible breakage in future
 msgid "Fields on %s objects"
 msgstr "Поља у повезаним објектима %s"
 
