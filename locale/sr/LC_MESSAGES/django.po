@@ -1021,7 +1021,7 @@ msgstr "Модел %(model_name)r није пронађен у апликаци�
 #: contrib/admindocs/views.py:206
 #, python-format
 msgid "the related `%(app_label)s.%(data_type)s` object"
-msgstr "повезани објекти `%(app_label)s.%(data_type)s`"
+msgstr "повезани објекти класе `%(app_label)s.%(data_type)s`"
 
 #: contrib/admindocs/views.py:206 contrib/admindocs/views.py:228
 #: contrib/admindocs/views.py:242 contrib/admindocs/views.py:247
@@ -1031,22 +1031,22 @@ msgstr "модел:"
 #: contrib/admindocs/views.py:237
 #, python-format
 msgid "related `%(app_label)s.%(object_name)s` objects"
-msgstr "повезани објекти `%(app_label)s.%(object_name)s`"
+msgstr "класе `%(app_label)s.%(object_name)s`"
 
 #: contrib/admindocs/views.py:242
 #, python-format
 msgid "all %s"
-msgstr "сви %s"
+msgstr "сви повезани објекти %s"
 
 #: contrib/admindocs/views.py:247
 #, python-format
 msgid "number of %s"
-msgstr "број %s"
+msgstr "број повезаних објеката %s"
 
 #: contrib/admindocs/views.py:252
 #, python-format
 msgid "Fields on %s objects"
-msgstr "Поља у објектима %s"
+msgstr "Поља у повезаним објектима %s"
 
 #: contrib/admindocs/views.py:315 contrib/admindocs/views.py:326
 #: contrib/admindocs/views.py:328 contrib/admindocs/views.py:334
