@@ -1061,7 +1061,7 @@ msgstr "Bulova vrednost (True ili False)"
 #: contrib/admindocs/views.py:317 contrib/admindocs/views.py:336
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "String (najduže %(max_length)s)"
+msgstr "String (najviše %(max_length)s znakova)"
 
 #: contrib/admindocs/views.py:318
 msgid "Comma-separated integers"
