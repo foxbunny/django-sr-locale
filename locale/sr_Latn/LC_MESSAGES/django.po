@@ -1021,7 +1021,7 @@ msgstr "Model %(model_name)r nije pronađen u aplikaciji %(app_label)r"
 #: contrib/admindocs/views.py:206
 #, python-format
 msgid "the related `%(app_label)s.%(data_type)s` object"
-msgstr "povezani objekti `%(app_label)s.%(data_type)s`"
+msgstr "povezani objekti klase `%(app_label)s.%(data_type)s`"
 
 #: contrib/admindocs/views.py:206 contrib/admindocs/views.py:228
 #: contrib/admindocs/views.py:242 contrib/admindocs/views.py:247
@@ -1030,23 +1030,29 @@ msgstr "model:"
 
 #: contrib/admindocs/views.py:237
 #, python-format
+# WARN: possible breakage in future
+# This string is interpolated in strings below, which can cause breakage in 
+# future releases.
 msgid "related `%(app_label)s.%(object_name)s` objects"
-msgstr "povezani objekti `%(app_label)s.%(object_name)s`"
+msgstr "klase `%(app_label)s.%(object_name)s`"
 
 #: contrib/admindocs/views.py:242
 #, python-format
+# WARN: possible breakage in future
 msgid "all %s"
-msgstr "svi %s"
+msgstr "svi povezani objekti %s"
 
 #: contrib/admindocs/views.py:247
 #, python-format
+# WARN: possible breakage in future
 msgid "number of %s"
-msgstr "broj %s"
+msgstr "broj povezanih objekata %s"
 
 #: contrib/admindocs/views.py:252
 #, python-format
+# WARN: possible breakage in future
 msgid "Fields on %s objects"
-msgstr "Polja u objektima %s"
+msgstr "Polja u povezanim objektima %s"
 
 #: contrib/admindocs/views.py:315 contrib/admindocs/views.py:326
 #: contrib/admindocs/views.py:328 contrib/admindocs/views.py:334
