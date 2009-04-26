@@ -1067,7 +1067,7 @@ msgstr "Булова вредност (True или False)"
 #: contrib/admindocs/views.py:317 contrib/admindocs/views.py:336
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Стринг (најдуже %(max_length)s)"
+msgstr "Стринг (највише %(max_length)s знакова)"
 
 #: contrib/admindocs/views.py:318
 msgid "Comma-separated integers"
