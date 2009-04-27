@@ -1245,7 +1245,7 @@ msgid ""
 "Required. 30 characters or fewer. Alphanumeric characters only (letters, "
 "digits and underscores)."
 msgstr ""
-"Захтевано. Највише 30 словних места. Само алфанумерички знаци (слова, "
+"Неопходно поље. Највише 30 словних места. Само алфанумерички знаци (слова, "
 "бројке и доња црта)."
 
 #: contrib/auth/forms.py:16 contrib/auth/forms.py:49
