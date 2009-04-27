@@ -1274,7 +1274,7 @@ msgid ""
 "Your Web browser doesn't appear to have cookies enabled. Cookies are "
 "required for logging in."
 msgstr ""
-"Изгледа да су колачићи (cookies) искључени у вашем браузеру. Они морају бити "
+"Изгледа да су колачићи искључени у вашем браузеру. Они морају бити "
 "укључени да би сте се пријавили."
 
 #: contrib/auth/forms.py:100
