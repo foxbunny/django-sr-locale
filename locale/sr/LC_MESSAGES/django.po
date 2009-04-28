@@ -222,7 +222,7 @@ msgid ""
 "<h3>By %s:</h3>\n"
 "<ul>\n"
 msgstr ""
-"<h3>По %s:</h3>\n"
+"<h3>%s:</h3>\n"
 "<ul>\n"
 
 #: contrib/admin/filterspecs.py:75 contrib/admin/filterspecs.py:92
@@ -678,7 +678,7 @@ msgstr ""
 #: contrib/admin/templates/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr "По %(filter_title)s "
+msgstr " %(filter_title)s "
 
 #: contrib/admin/templates/admin/index.html:18
 #, python-format
