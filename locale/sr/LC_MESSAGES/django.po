@@ -448,7 +448,7 @@ msgstr "Пријава"
 #: contrib/admin/sites.py:396
 #, python-format
 msgid "%s administration"
-msgstr "администрација %s"
+msgstr "Администрација %s"
 
 #: contrib/admin/util.py:168
 #, python-format
