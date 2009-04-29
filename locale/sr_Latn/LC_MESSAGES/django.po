@@ -222,7 +222,7 @@ msgid ""
 "<h3>By %s:</h3>\n"
 "<ul>\n"
 msgstr ""
-"<h3>Po %s:</h3>\n"
+"<h3>%s:</h3>\n"
 "<ul>\n"
 
 #: contrib/admin/filterspecs.py:75 contrib/admin/filterspecs.py:92
@@ -448,7 +448,7 @@ msgstr "Prijava"
 #: contrib/admin/sites.py:396
 #, python-format
 msgid "%s administration"
-msgstr "administracija %s"
+msgstr "Administracija %s"
 
 #: contrib/admin/util.py:168
 #, python-format
@@ -678,7 +678,7 @@ msgstr ""
 #: contrib/admin/templates/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr "Po %(filter_title)s "
+msgstr " %(filter_title)s "
 
 #: contrib/admin/templates/admin/index.html:18
 #, python-format
@@ -960,7 +960,7 @@ msgid ""
 "Forgotten your password? Enter your e-mail address below, and we'll e-mail "
 "instructions for setting a new one."
 msgstr ""
-"Зaboravili ste lozinku? Unesite svoju imejl adresu dole i poslaćemo vam "
+"Zaboravili ste lozinku? Unesite svoju imejl adresu dole i poslaćemo vam "
 "uputstva za postavljanje nove."
 
 #: contrib/admin/templates/registration/password_reset_form.html:16
@@ -1245,7 +1245,7 @@ msgid ""
 "Required. 30 characters or fewer. Alphanumeric characters only (letters, "
 "digits and underscores)."
 msgstr ""
-"Зahtevano. Najviše 30 slovnih mesta. Samo alfanumerički znaci (slova, "
+"Neophodno. Najviše 30 slovnih mesta. Samo alfanumerički znaci (slova, "
 "brojke i donja crta)."
 
 #: contrib/auth/forms.py:16 contrib/auth/forms.py:49
@@ -1274,7 +1274,7 @@ msgid ""
 "Your Web browser doesn't appear to have cookies enabled. Cookies are "
 "required for logging in."
 msgstr ""
-"Izgleda da su kolačići (cookies) isključeni u vašem brauzeru. Oni moraju biti "
+"Izgleda da su kolačići isključeni u vašem brauzeru. Oni moraju biti "
 "uključeni da bi ste se prijavili."
 
 #: contrib/auth/forms.py:100
@@ -4332,4 +4332,3 @@ msgstr "%(verbose_name)s je uspešno ažuriran."
 #, python-format
 msgid "The %(verbose_name)s was deleted."
 msgstr "%(verbose_name)s je obrisan."
-

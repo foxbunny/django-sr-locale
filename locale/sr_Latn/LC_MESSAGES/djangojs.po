@@ -19,7 +19,7 @@ msgstr "Dostupni %s"
 
 #: contrib/admin/media/js/SelectFilter2.js:41
 msgid "Choose all"
-msgstr "Odaberi sve"
+msgstr "Dodaj sve"
 
 #: contrib/admin/media/js/SelectFilter2.js:46
 msgid "Add"
@@ -114,4 +114,3 @@ msgstr "Juče"
 #: contrib/admin/media/js/admin/DateTimeShortcuts.js:179
 msgid "Tomorrow"
 msgstr "Sutra"
-
