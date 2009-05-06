@@ -178,7 +178,7 @@ msgstr "словачки"
 
 #: conf/global_settings.py:85
 msgid "Slovenian"
-msgstr "словенски"
+msgstr "словеначки"
 
 #: conf/global_settings.py:86
 msgid "Serbian"
@@ -272,7 +272,7 @@ msgstr "време радње"
 
 #: contrib/admin/models.py:22
 msgid "object id"
-msgstr "id objekta"
+msgstr "id објекта"
 
 #: contrib/admin/models.py:23
 msgid "object repr"
@@ -410,7 +410,7 @@ msgid ""
 "Please enter a correct username and password. Note that both fields are case-"
 "sensitive."
 msgstr ""
-"Унесите тачно корисничко име и лозинку. Пазите на разлику између малихи "
+"Унесите тачно корисничко име и лозинку. Пазите на разлику између малих и "
 "великих слова у оба поља"
 
 #: contrib/admin/sites.py:250 contrib/admin/views/decorators.py:40
@@ -453,12 +453,12 @@ msgstr "Администрација %s"
 #: contrib/admin/util.py:168
 #, python-format
 msgid "One or more %(fieldname)s in %(name)s: %(obj)s"
-msgstr "Један или више поља %(fieldname)s у %(name)s: %(obj)s"
+msgstr "Једно или више поља %(fieldname)s у %(name)s: %(obj)s"
 
 #: contrib/admin/util.py:173
 #, python-format
 msgid "One or more %(fieldname)s in %(name)s:"
-msgstr "Један или више поља %(fieldname)s у %(name)s"
+msgstr "Једно или више поља %(fieldname)s у %(name)s"
 
 #: contrib/admin/util.py:222
 msgid "verbose_name"
@@ -1436,7 +1436,7 @@ msgstr "Унесите важећу имејл адресу."
 
 #: contrib/comments/admin.py:11
 msgid "Content"
-msgstr "Контакт"
+msgstr "Садржај"
 
 #: contrib/comments/admin.py:14
 msgid "Metadata"
@@ -3791,11 +3791,11 @@ msgstr "преусмеравања"
 
 #: contrib/sessions/models.py:45
 msgid "session key"
-msgstr "session key"
+msgstr "кључ сесије"
 
 #: contrib/sessions/models.py:47
 msgid "session data"
-msgstr "session data"
+msgstr "подаци сесије"
 
 #: contrib/sessions/models.py:48
 msgid "expire date"
@@ -3823,7 +3823,7 @@ msgstr "сајтови"
 
 #: db/models/fields/__init__.py:356 db/models/fields/__init__.py:700
 msgid "This value must be an integer."
-msgstr "Ова вредност мора бити целобројна"
+msgstr "Ова вредност мора бити целобројна."
 
 #: db/models/fields/__init__.py:387
 msgid "This value must be either True or False."
@@ -3839,7 +3839,7 @@ msgstr "Унесите само бројке раздвојене запетам
 
 #: db/models/fields/__init__.py:467
 msgid "Enter a valid date in YYYY-MM-DD format."
-msgstr "Унесите исправан датум у формату YYYY-MM-DD."
+msgstr "Унесите исправан датум у формату ГГГГ-ММ-ДД."
 
 #: db/models/fields/__init__.py:476
 #, python-format

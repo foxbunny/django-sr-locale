@@ -178,7 +178,7 @@ msgstr "slovački"
 
 #: conf/global_settings.py:85
 msgid "Slovenian"
-msgstr "slovenski"
+msgstr "slovenački"
 
 #: conf/global_settings.py:86
 msgid "Serbian"
@@ -410,7 +410,7 @@ msgid ""
 "Please enter a correct username and password. Note that both fields are case-"
 "sensitive."
 msgstr ""
-"Unesite tačno korisničko ime i lozinku. Pazite na razliku između malihi "
+"Unesite tačno korisničko ime i lozinku. Pazite na razliku između malih i "
 "velikih slova u oba polja"
 
 #: contrib/admin/sites.py:250 contrib/admin/views/decorators.py:40
@@ -453,12 +453,12 @@ msgstr "Administracija %s"
 #: contrib/admin/util.py:168
 #, python-format
 msgid "One or more %(fieldname)s in %(name)s: %(obj)s"
-msgstr "Jedan ili više polja %(fieldname)s u %(name)s: %(obj)s"
+msgstr "Jedno ili više polja %(fieldname)s u %(name)s: %(obj)s"
 
 #: contrib/admin/util.py:173
 #, python-format
 msgid "One or more %(fieldname)s in %(name)s:"
-msgstr "Jedan ili više polja %(fieldname)s u %(name)s"
+msgstr "Jedno ili više polja %(fieldname)s u %(name)s"
 
 #: contrib/admin/util.py:222
 msgid "verbose_name"
@@ -1436,7 +1436,7 @@ msgstr "Unesite važeću imejl adresu."
 
 #: contrib/comments/admin.py:11
 msgid "Content"
-msgstr "Kontakt"
+msgstr "Sadržaj"
 
 #: contrib/comments/admin.py:14
 msgid "Metadata"
@@ -3791,11 +3791,11 @@ msgstr "preusmeravanja"
 
 #: contrib/sessions/models.py:45
 msgid "session key"
-msgstr "session key"
+msgstr "ključ sesije"
 
 #: contrib/sessions/models.py:47
 msgid "session data"
-msgstr "session data"
+msgstr "podaci sesije"
 
 #: contrib/sessions/models.py:48
 msgid "expire date"
@@ -3823,7 +3823,7 @@ msgstr "sajtovi"
 
 #: db/models/fields/__init__.py:356 db/models/fields/__init__.py:700
 msgid "This value must be an integer."
-msgstr "Ova vrednost mora biti celobrojna"
+msgstr "Ova vrednost mora biti celobrojna."
 
 #: db/models/fields/__init__.py:387
 msgid "This value must be either True or False."
@@ -3839,7 +3839,7 @@ msgstr "Unesite samo brojke razdvojene zapetama."
 
 #: db/models/fields/__init__.py:467
 msgid "Enter a valid date in YYYY-MM-DD format."
-msgstr "Unesite ispravan datum u formatu YYYY-MM-DD."
+msgstr "Unesite ispravan datum u formatu GGGG-MM-DD."
 
 #: db/models/fields/__init__.py:476
 #, python-format
