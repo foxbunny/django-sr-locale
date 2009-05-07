@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-07 16:22+0200\n"
+"POT-Creation-Date: 2009-05-07 21:38+0200\n"
 "PO-Revision-Date: 2009-04-01 18:38+0200\n"
 "Last-Translator: Janos Guljas <janos@janos.in.rs>\n"
 "Language-Team: Branko Vukelic <bg.branko@gmail.com> & Janos Guljas "
@@ -13,6 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: conf/global_settings.py:44
 msgid "Arabic"
@@ -395,6 +397,7 @@ msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
 msgstr[0] "%(count)s %(name)s је успешно измењен."
 msgstr[1] "%(count)s %(name)s су успешно измењени."
+msgstr[2] "%(count)s %(name)s су успешно измењени."
 
 #: contrib/admin/options.py:1018
 #, python-format
@@ -606,6 +609,7 @@ msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
 msgstr[0] "Исправите грешку доле."
 msgstr[1] "Исправите грешке доле."
+msgstr[2] "Исправите грешке доле."
 
 #: contrib/admin/templates/admin/change_list.html:46
 #, python-format
@@ -761,6 +765,7 @@ msgid "1 result"
 msgid_plural "%(counter)s results"
 msgstr[0] "1 резултат"
 msgstr[1] "%(counter)s резултата"
+msgstr[2] "%(counter)s резултата"
 
 #: contrib/admin/templates/admin/search_form.html:10
 #, python-format
@@ -1475,6 +1480,7 @@ msgid "Watch your mouth! The word %s is not allowed here."
 msgid_plural "Watch your mouth! The words %s are not allowed here."
 msgstr[0] "Пази на језик! Реч „%s“ овде није дозвољена."
 msgstr[1] "Пази на језик! Речи „%s“ овде нису дозвољене."
+msgstr[2] "Пази на језик! Речи „%s“ овде нису дозвољене."
 
 #: contrib/comments/forms.py:180
 msgid ""
@@ -1701,6 +1707,7 @@ msgid "Please correct the error below"
 msgid_plural "Please correct the errors below"
 msgstr[0] "Исправите грешку доле."
 msgstr[1] "Исправите грешке доле."
+msgstr[2] "Исправите грешке доле."
 
 #: contrib/comments/templates/comments/preview.html:16
 msgid "Post your comment"
@@ -1826,13 +1833,15 @@ msgid "%(value).1f million"
 msgid_plural "%(value).1f million"
 msgstr[0] "%(value).1f милион"
 msgstr[1] "%(value).1f милиона"
+msgstr[2] "%(value).1f милиона"
 
 #: contrib/humanize/templatetags/humanize.py:54
 #, python-format
 msgid "%(value).1f billion"
 msgid_plural "%(value).1f billion"
 msgstr[0] "%(value).1f милијарда"
-msgstr[1] "%(value).1f милијарди"
+msgstr[1] "%(value).1f милијарде"
+msgstr[2] "%(value).1f милијарди"
 
 #: contrib/humanize/templatetags/humanize.py:57
 #, python-format
@@ -1840,6 +1849,7 @@ msgid "%(value).1f trillion"
 msgid_plural "%(value).1f trillion"
 msgstr[0] "%(value).1f трилион"
 msgstr[1] "%(value).1f трилиона"
+msgstr[2] "%(value).1f трилиона"
 
 #: contrib/humanize/templatetags/humanize.py:73
 msgid "one"
@@ -3919,6 +3929,7 @@ msgid_plural ""
 "Please enter valid %(self)s IDs. The values %(value)r are invalid."
 msgstr[0] "Унесите исправан %(self)s IDs. Вредност %(value)r је неисправна."
 msgstr[1] "Унесите исправан %(self)s IDs. Вредности %(value)r су неисправне."
+msgstr[2] "Унесите исправан %(self)s IDs. Вредности %(value)r су неисправне."
 
 #: forms/fields.py:54
 msgid "This field is required."
@@ -4109,7 +4120,8 @@ msgstr "да,не,можда"
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
 msgstr[0] "%(size)d бајт"
-msgstr[1] "%(size)d бајтова"
+msgstr[1] "%(size)d бајта"
+msgstr[2] "%(size)d бајтова"
 
 #: template/defaultfilters.py:800
 #, python-format
@@ -4338,37 +4350,43 @@ msgstr "или"
 msgid "year"
 msgid_plural "years"
 msgstr[0] "година"
-msgstr[1] "година"
+msgstr[1] "године"
+msgstr[2] "година"
 
 #: utils/timesince.py:22
 msgid "month"
 msgid_plural "months"
 msgstr[0] "месец"
-msgstr[1] "месеци"
+msgstr[1] "месеца"
+msgstr[2] "месеци"
 
 #: utils/timesince.py:23
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] "недеља"
-msgstr[1] "недеља"
+msgstr[1] "недеље"
+msgstr[2] "недеља"
 
 #: utils/timesince.py:24
 msgid "day"
 msgid_plural "days"
 msgstr[0] "дан"
 msgstr[1] "дана"
+msgstr[2] "дана"
 
 #: utils/timesince.py:25
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "сат"
-msgstr[1] "сати"
+msgstr[1] "сата"
+msgstr[2] "сати"
 
 #: utils/timesince.py:26
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "минут"
 msgstr[1] "минута"
+msgstr[2] "минута"
 
 #: utils/timesince.py:45
 msgid "minutes"
