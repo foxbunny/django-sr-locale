@@ -615,7 +615,7 @@ msgstr[2] "Исправите грешке доле."
 #: contrib/admin/templates/admin/change_list.html:46
 #, python-format
 msgid "Add %(name)s"
-msgstr "Додај %(name)s"
+msgstr "Додај објекат класе %(name)s"
 
 #: contrib/admin/templates/admin/change_list.html:65
 msgid "Filter"
@@ -987,12 +987,12 @@ msgstr "Сви датуми"
 #: contrib/admin/views/main.py:70
 #, python-format
 msgid "Select %s"
-msgstr "Одабери %s"
+msgstr "Одабери објекат класе %s"
 
 #: contrib/admin/views/main.py:70
 #, python-format
 msgid "Select %s to change"
-msgstr "Одабери %s за измену"
+msgstr "Одабери објекат класе %s за измену"
 
 #: contrib/admin/views/template.py:37 contrib/sites/models.py:38
 msgid "site"
@@ -1568,7 +1568,7 @@ msgid ""
 "\n"
 "http://%(domain)s%(url)s"
 msgstr ""
-"Поставио %(user)s у %(date)s\n"
+"Поставио %(user)s, %(date)s\n"
 "\n"
 "%(comment)s\n"
 "\n"
