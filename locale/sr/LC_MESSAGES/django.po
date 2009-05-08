@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-07 21:38+0200\n"
+"POT-Creation-Date: 2009-05-08 22:50+0200\n"
 "PO-Revision-Date: 2009-04-01 18:38+0200\n"
 "Last-Translator: Janos Guljas <janos@janos.in.rs>\n"
 "Language-Team: Branko Vukelic <bg.branko@gmail.com> & Janos Guljas "
@@ -220,16 +220,16 @@ msgstr "новокинески"
 msgid "Traditional Chinese"
 msgstr "старокинески"
 
-#: contrib/admin/actions.py:56
+#: contrib/admin/actions.py:60
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
 msgstr "Успешно обрисано: %(count)d %(items)s."
 
-#: contrib/admin/actions.py:63 contrib/admin/options.py:1025
+#: contrib/admin/actions.py:67 contrib/admin/options.py:1025
 msgid "Are you sure?"
 msgstr "Да ли сте сигурни?"
 
-#: contrib/admin/actions.py:81
+#: contrib/admin/actions.py:85
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
 msgstr "Бриши означене објекте класе %(verbose_name_plural)s"
@@ -370,8 +370,9 @@ msgstr "Објекат „%(obj)s“ класе %(name)s измењен је у�
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
-msgstr "Објекат „%(obj)s“ класе %(name)s додат је успешно. Доле можете унети "
-"додатне измене."
+msgstr ""
+"Објекат „%(obj)s“ класе %(name)s додат је успешно. Доле можете унети додатне "
+"измене."
 
 #: contrib/admin/options.py:772
 #, python-format
@@ -4041,7 +4042,7 @@ msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
 "%(value)s није међу понуђеним вредностима. Одаберите једну од понуђених."
 
-#: forms/fields.py:704 forms/fields.py:765 forms/models.py:961
+#: forms/fields.py:704 forms/fields.py:765 forms/models.py:962
 msgid "Enter a list of values."
 msgstr "Унесите листу вредности."
 
@@ -4094,20 +4095,20 @@ msgstr ""
 msgid "Please correct the duplicate values below."
 msgstr "Исправите дуплиране вредности доле."
 
-#: forms/models.py:836
+#: forms/models.py:837
 msgid "The inline foreign key did not match the parent instance primary key."
 msgstr "Страни кључ се није поклопио са инстанцом родитељског кључа."
 
-#: forms/models.py:891
+#: forms/models.py:892
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr "Одабрана вредност није међу понуђенима. Одаберите једну од понуђених."
 
-#: forms/models.py:962
+#: forms/models.py:963
 #, python-format
 msgid "Select a valid choice. %s is not one of the available choices."
 msgstr "%s није међу понуђеним вредностима. Одаберите једну од понуђених."
 
-#: forms/models.py:964
+#: forms/models.py:965
 #, python-format
 msgid "\"%s\" is not a valid value for a primary key."
 msgstr "„%s“ није исправна вредност за примарни кључ."
@@ -4139,27 +4140,27 @@ msgstr "%.1f MB"
 msgid "%.1f GB"
 msgstr "%.1f GB"
 
-#: utils/dateformat.py:41
+#: utils/dateformat.py:42
 msgid "p.m."
 msgstr "по п."
 
-#: utils/dateformat.py:42
+#: utils/dateformat.py:43
 msgid "a.m."
 msgstr "пре п."
 
-#: utils/dateformat.py:47
+#: utils/dateformat.py:48
 msgid "PM"
 msgstr "PM"
 
-#: utils/dateformat.py:48
+#: utils/dateformat.py:49
 msgid "AM"
 msgstr "AM"
 
-#: utils/dateformat.py:97
+#: utils/dateformat.py:98
 msgid "midnight"
 msgstr "поноћ"
 
-#: utils/dateformat.py:99
+#: utils/dateformat.py:100
 msgid "noon"
 msgstr "подне"
 
