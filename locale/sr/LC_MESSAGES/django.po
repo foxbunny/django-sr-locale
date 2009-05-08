@@ -319,7 +319,7 @@ msgstr "Ништа"
 #: contrib/admin/options.py:519
 #, python-format
 msgid "Changed %s."
-msgstr "Измењена ставка: %s"
+msgstr "Измењена поља %s"
 
 #: contrib/admin/options.py:519 contrib/admin/options.py:529
 #: contrib/comments/templates/comments/preview.html:16 forms/models.py:388
@@ -330,17 +330,17 @@ msgstr "и"
 #: contrib/admin/options.py:524
 #, python-format
 msgid "Added %(name)s \"%(object)s\"."
-msgstr "Додата ставка: %(name)s „%(object)s“."
+msgstr "Сачуван објекат „%(object)s“ класе %(name)s."
 
 #: contrib/admin/options.py:528
 #, python-format
 msgid "Changed %(list)s for %(name)s \"%(object)s\"."
-msgstr "Измењенo: %(list)s за ставку %(name)s „%(object)s“."
+msgstr "Измењена поља %(list)s објеката „%(object)s“ класе %(name)s ."
 
 #: contrib/admin/options.py:533
 #, python-format
 msgid "Deleted %(name)s \"%(object)s\"."
-msgstr "Обрисана ставка: %(name)s „%(object)s“."
+msgstr "Обрисан објекат „%(object)s“ класе %(name)s."
 
 #: contrib/admin/options.py:537
 msgid "No fields changed."
@@ -349,7 +349,7 @@ msgstr "Без измена у пољима."
 #: contrib/admin/options.py:598 contrib/auth/admin.py:67
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was added successfully."
-msgstr "Ставка %(name)s „%(obj)s“ је успешно додата."
+msgstr "Објекат „%(obj)s“ класе %(name)s сачуван је успешно."
 
 #: contrib/admin/options.py:602 contrib/admin/options.py:635
 #: contrib/auth/admin.py:75
@@ -359,33 +359,34 @@ msgstr "Доле можете поново уносити измене."
 #: contrib/admin/options.py:612 contrib/admin/options.py:645
 #, python-format
 msgid "You may add another %s below."
-msgstr "Доле можете додати нову ставку %s"
+msgstr "Доле можете додати нови објекат класе %s"
 
 #: contrib/admin/options.py:633
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was changed successfully."
-msgstr "Ставка %(name)s „%(obj)s“ је успешно измењена."
+msgstr "Објекат „%(obj)s“ класе %(name)s измењен је успешно."
 
 #: contrib/admin/options.py:641
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
-msgstr "Ставка %(name)s „%(obj)s“ је успешно додата. Доле можете унети додатне измене."
+msgstr "Објекат „%(obj)s“ класе %(name)s додат је успешно. Доле можете унети "
+"додатне измене."
 
 #: contrib/admin/options.py:772
 #, python-format
 msgid "Add %s"
-msgstr "Додај ставку: %s"
+msgstr "Додај објекат класе %s"
 
 #: contrib/admin/options.py:803 contrib/admin/options.py:1003
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr "Објекат %(name)s са примарним кључем %(key)r не постоји."
+msgstr "Објекат класе %(name)s са примарним кључем %(key)r не постоји."
 
 #: contrib/admin/options.py:860
 #, python-format
 msgid "Change %s"
-msgstr "Измени ставку: %s"
+msgstr "Измени објекат класе %s"
 
 #: contrib/admin/options.py:904
 msgid "Database error"
@@ -395,14 +396,14 @@ msgstr "Грешка у бази података"
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "Ставка %(count)s %(name)s је успешно измењена."
-msgstr[1] "Ставке %(count)s %(name)s су успешно измењене."
-msgstr[2] "Ставке %(count)s %(name)s су успешно измењене."
+msgstr[0] "%(count)s објекат класе %(name)s измењен је успешно."
+msgstr[1] "%(count)s објеката класе %(name)s измењени су успешно."
+msgstr[2] "%(count)s објекта класе %(name)s измењено је успешно."
 
 #: contrib/admin/options.py:1018
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was deleted successfully."
-msgstr "Ставка %(name)s „%(obj)s“ је успешно обрисана."
+msgstr "Објекат „%(obj)s“ класе %(name)s обрисан је успешно."
 
 #: contrib/admin/options.py:1054
 #, python-format
