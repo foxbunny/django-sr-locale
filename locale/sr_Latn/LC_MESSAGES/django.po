@@ -223,7 +223,7 @@ msgstr "starokineski"
 #: contrib/admin/actions.py:56
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr "Uspešno obrisano %(count)d %(items)s."
+msgstr "Uspešno obrisano: %(count)d %(items)s."
 
 #: contrib/admin/actions.py:63 contrib/admin/options.py:1025
 msgid "Are you sure?"
@@ -232,7 +232,7 @@ msgstr "Da li ste sigurni?"
 #: contrib/admin/actions.py:81
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
-msgstr "Briši označene %(verbose_name_plural)s"
+msgstr "Briši označene objekte klase %(verbose_name_plural)s"
 
 #: contrib/admin/filterspecs.py:44
 #, python-format
@@ -319,7 +319,7 @@ msgstr "Ništa"
 #: contrib/admin/options.py:519
 #, python-format
 msgid "Changed %s."
-msgstr "Izmenjena stavka: %s"
+msgstr "Izmenjena polja %s"
 
 #: contrib/admin/options.py:519 contrib/admin/options.py:529
 #: contrib/comments/templates/comments/preview.html:16 forms/models.py:388
@@ -330,17 +330,17 @@ msgstr "i"
 #: contrib/admin/options.py:524
 #, python-format
 msgid "Added %(name)s \"%(object)s\"."
-msgstr "Dodata stavka: %(name)s „%(object)s“."
+msgstr "Sačuvan objekat „%(object)s“ klase %(name)s."
 
 #: contrib/admin/options.py:528
 #, python-format
 msgid "Changed %(list)s for %(name)s \"%(object)s\"."
-msgstr "Izmenjeno: %(list)s za stavku %(name)s „%(object)s“."
+msgstr "Izmenjena polja %(list)s objekata „%(object)s“ klase %(name)s ."
 
 #: contrib/admin/options.py:533
 #, python-format
 msgid "Deleted %(name)s \"%(object)s\"."
-msgstr "Obrisana stavka: %(name)s „%(object)s“."
+msgstr "Obrisan objekat „%(object)s“ klase %(name)s."
 
 #: contrib/admin/options.py:537
 msgid "No fields changed."
@@ -349,7 +349,7 @@ msgstr "Bez izmena u poljima."
 #: contrib/admin/options.py:598 contrib/auth/admin.py:67
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was added successfully."
-msgstr "Stavka %(name)s „%(obj)s“ je uspešno dodata."
+msgstr "Objekat „%(obj)s“ klase %(name)s sačuvan je uspešno."
 
 #: contrib/admin/options.py:602 contrib/admin/options.py:635
 #: contrib/auth/admin.py:75
@@ -359,33 +359,34 @@ msgstr "Dole možete ponovo unositi izmene."
 #: contrib/admin/options.py:612 contrib/admin/options.py:645
 #, python-format
 msgid "You may add another %s below."
-msgstr "Dole možete dodati novu stavku %s"
+msgstr "Dole možete dodati novi objekat klase %s"
 
 #: contrib/admin/options.py:633
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was changed successfully."
-msgstr "Stavka %(name)s „%(obj)s“ je uspešno izmenjena."
+msgstr "Objekat „%(obj)s“ klase %(name)s izmenjen je uspešno."
 
 #: contrib/admin/options.py:641
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
-msgstr "Stavka %(name)s „%(obj)s“ je uspešno dodata. Dole možete uneti dodatne izmene."
+msgstr "Objekat „%(obj)s“ klase %(name)s dodat je uspešno. Dole možete uneti "
+"dodatne izmene."
 
 #: contrib/admin/options.py:772
 #, python-format
 msgid "Add %s"
-msgstr "Dodaj stavku: %s"
+msgstr "Dodaj objekat klase %s"
 
 #: contrib/admin/options.py:803 contrib/admin/options.py:1003
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr "Objekat %(name)s sa primarnim ključem %(key)r ne postoji."
+msgstr "Objekat klase %(name)s sa primarnim ključem %(key)r ne postoji."
 
 #: contrib/admin/options.py:860
 #, python-format
 msgid "Change %s"
-msgstr "Izmeni stavku: %s"
+msgstr "Izmeni objekat klase %s"
 
 #: contrib/admin/options.py:904
 msgid "Database error"
@@ -395,14 +396,14 @@ msgstr "Greška u bazi podataka"
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "Stavka %(count)s %(name)s je uspešno izmenjena."
-msgstr[1] "Stavke %(count)s %(name)s su uspešno izmenjene."
-msgstr[2] "Stavke %(count)s %(name)s su uspešno izmenjene."
+msgstr[0] "%(count)s objekat klase %(name)s izmenjen je uspešno."
+msgstr[1] "%(count)s objekata klase %(name)s izmenjeni su uspešno."
+msgstr[2] "%(count)s objekta klase %(name)s izmenjeno je uspešno."
 
 #: contrib/admin/options.py:1018
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was deleted successfully."
-msgstr "Stavka %(name)s „%(obj)s“ je uspešno obrisana."
+msgstr "Objekat „%(obj)s“ klase %(name)s obrisan je uspešno."
 
 #: contrib/admin/options.py:1054
 #, python-format
@@ -614,7 +615,7 @@ msgstr[2] "Ispravite greške dole."
 #: contrib/admin/templates/admin/change_list.html:46
 #, python-format
 msgid "Add %(name)s"
-msgstr "Dodaj %(name)s"
+msgstr "Dodaj objekat klase %(name)s"
 
 #: contrib/admin/templates/admin/change_list.html:65
 msgid "Filter"
@@ -986,12 +987,12 @@ msgstr "Svi datumi"
 #: contrib/admin/views/main.py:70
 #, python-format
 msgid "Select %s"
-msgstr "Odaberi %s"
+msgstr "Odaberi objekat klase %s"
 
 #: contrib/admin/views/main.py:70
 #, python-format
 msgid "Select %s to change"
-msgstr "Odaberi %s za izmenu"
+msgstr "Odaberi objekat klase %s za izmenu"
 
 #: contrib/admin/views/template.py:37 contrib/sites/models.py:38
 msgid "site"
@@ -1567,7 +1568,7 @@ msgid ""
 "\n"
 "http://%(domain)s%(url)s"
 msgstr ""
-"Postavio %(user)s u %(date)s\n"
+"Postavio %(user)s, %(date)s\n"
 "\n"
 "%(comment)s\n"
 "\n"

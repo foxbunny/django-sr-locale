@@ -223,7 +223,7 @@ msgstr "старокинески"
 #: contrib/admin/actions.py:56
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr "Успешно обрисано %(count)d %(items)s."
+msgstr "Успешно обрисано: %(count)d %(items)s."
 
 #: contrib/admin/actions.py:63 contrib/admin/options.py:1025
 msgid "Are you sure?"
@@ -232,7 +232,7 @@ msgstr "Да ли сте сигурни?"
 #: contrib/admin/actions.py:81
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
-msgstr "Бриши означене %(verbose_name_plural)s"
+msgstr "Бриши означене објекте класе %(verbose_name_plural)s"
 
 #: contrib/admin/filterspecs.py:44
 #, python-format
