@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-08 22:50+0200\n"
+"POT-Creation-Date: 2009-05-22 21:47+0200\n"
 "PO-Revision-Date: 2009-04-01 18:38+0200\n"
 "Last-Translator: Janos Guljas <janos@janos.in.rs>\n"
 "Language-Team: Branko Vukelic <bg.branko@gmail.com> & Janos Guljas "
@@ -3935,7 +3935,7 @@ msgstr[2] "Унесите исправан %(self)s IDs. Вредности %(va
 
 #: forms/fields.py:54
 msgid "This field is required."
-msgstr "Ово поље се мора попунити."
+msgstr "Обавезно поље."
 
 #: forms/fields.py:55
 msgid "Enter a valid value."
@@ -4042,7 +4042,7 @@ msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
 "%(value)s није међу понуђеним вредностима. Одаберите једну од понуђених."
 
-#: forms/fields.py:704 forms/fields.py:765 forms/models.py:962
+#: forms/fields.py:704 forms/fields.py:765 forms/models.py:991
 msgid "Enter a list of values."
 msgstr "Унесите листу вредности."
 
@@ -4095,20 +4095,20 @@ msgstr ""
 msgid "Please correct the duplicate values below."
 msgstr "Исправите дуплиране вредности доле."
 
-#: forms/models.py:837
+#: forms/models.py:855
 msgid "The inline foreign key did not match the parent instance primary key."
 msgstr "Страни кључ се није поклопио са инстанцом родитељског кључа."
 
-#: forms/models.py:892
+#: forms/models.py:918
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr "Одабрана вредност није међу понуђенима. Одаберите једну од понуђених."
 
-#: forms/models.py:963
+#: forms/models.py:992
 #, python-format
 msgid "Select a valid choice. %s is not one of the available choices."
 msgstr "%s није међу понуђеним вредностима. Одаберите једну од понуђених."
 
-#: forms/models.py:965
+#: forms/models.py:994
 #, python-format
 msgid "\"%s\" is not a valid value for a primary key."
 msgstr "„%s“ није исправна вредност за примарни кључ."
