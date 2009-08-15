@@ -418,7 +418,7 @@ msgid ""
 "sensitive."
 msgstr ""
 "Unesite tačno korisničko ime i lozinku. Pazite na razliku između malih i "
-"velikih slova u oba polja"
+"velikih slova u oba polja."
 
 #: contrib/admin/sites.py:278 contrib/admin/views/decorators.py:40
 msgid "Please log in again, because your session has expired."
